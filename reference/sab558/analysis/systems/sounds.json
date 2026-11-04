@@ -1,0 +1,463 @@
+{
+  "source": "attachSound() calls in extracted/scripts/as/frame_1/DoAction.as",
+  "unresolved_export_names": [
+    "shotgun00.wav",
+    "ak47imp00.wav",
+    "sledgeimp00.wav",
+    "Sledgepick00.wav",
+    "dragVolume.wav",
+    "flamethrowerimp00.wav",
+    "railgunimp00.wav"
+  ],
+  "sounds": [
+    {
+      "attach_sound_name": "fist00.wav",
+      "character_id": 5294,
+      "file": "sounds/5294_fist00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "fist10.wav",
+      "character_id": 5293,
+      "file": "sounds/5293_fist10.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "fist20.wav",
+      "character_id": 5292,
+      "file": "sounds/5292_fist20.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "bat00.wav",
+      "character_id": 5306,
+      "file": "sounds/5306_bat00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "sword00.wav",
+      "character_id": 5272,
+      "file": "sounds/5272_sword00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "sword10.wav",
+      "character_id": 5271,
+      "file": "sounds/5271_sword10.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "sword20.wav",
+      "character_id": 5270,
+      "file": "sounds/5270_sword20.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Glock00.wav",
+      "character_id": 5290,
+      "file": "sounds/5290_Glock00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Glock10.wav",
+      "character_id": 5289,
+      "file": "sounds/5289_Glock10.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Glock20.wav",
+      "character_id": 5288,
+      "file": "sounds/5288_Glock20.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "AK4700.wav",
+      "character_id": 5309,
+      "file": "sounds/5309_AK4700.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "AK4710.wav",
+      "character_id": 5308,
+      "file": "sounds/5308_AK4710.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "AK4720.wav",
+      "character_id": 5307,
+      "file": "sounds/5307_AK4720.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "shotgun00.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "case_mismatch_with_export_name": "Shotgun00.wav",
+      "case_mismatch_character_id": 5279
+    },
+    {
+      "attach_sound_name": "sledge00.wav",
+      "character_id": 5276,
+      "file": "sounds/5276_sledge00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "fistimp00.wav",
+      "character_id": 5291,
+      "file": "sounds/5291_fistimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Batimp00.wav",
+      "character_id": 5305,
+      "file": "sounds/5305_Batimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "swordimp00.wav",
+      "character_id": 5269,
+      "file": "sounds/5269_swordimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "glockimp00.wav",
+      "character_id": 5287,
+      "file": "sounds/5287_glockimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "ak47imp00.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "case_mismatch_with_export_name": "AK47imp00.wav",
+      "case_mismatch_character_id": 5311
+    },
+    {
+      "attach_sound_name": "shotgunimp00.wav",
+      "character_id": 5278,
+      "file": "sounds/5278_shotgunimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "sledgeimp00.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "case_mismatch_with_export_name": "Sledgeimp00.wav",
+      "case_mismatch_character_id": 5275
+    },
+    {
+      "attach_sound_name": "Spawn.wav",
+      "character_id": 5273,
+      "file": "sounds/5273_Spawn.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "ticketScratch23.wav",
+      "character_id": 7888,
+      "file": "sounds/7888_ticketScratch23.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "ticketScratch27.wav",
+      "character_id": 7887,
+      "file": "sounds/7887_ticketScratch27.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "ticketScratch28.wav",
+      "character_id": 7886,
+      "file": "sounds/7886_ticketScratch28.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "ticketPrize.wav",
+      "character_id": 7889,
+      "file": "sounds/7889_ticketPrize.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Batpick00.wav",
+      "character_id": 5304,
+      "file": "sounds/5304_Batpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Swordpick00.wav",
+      "character_id": 5268,
+      "file": "sounds/5268_Swordpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Glockpick00.wav",
+      "character_id": 5286,
+      "file": "sounds/5286_Glockpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "AK47pick00.wav",
+      "character_id": 5310,
+      "file": "sounds/5310_AK47pick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Shotgunpick00.wav",
+      "character_id": 5277,
+      "file": "sounds/5277_Shotgunpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "Sledgepick00.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "case_mismatch_with_export_name": "sledgepick00.wav",
+      "case_mismatch_character_id": 5274
+    },
+    {
+      "attach_sound_name": "kill.wav",
+      "character_id": 5284,
+      "file": "sounds/5284_kill.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "positionFirst.wav",
+      "character_id": 5281,
+      "file": "sounds/5281_positionFirst.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "positionChange.wav",
+      "character_id": 5282,
+      "file": "sounds/5282_positionChange.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNover.wav",
+      "character_id": 7881,
+      "file": "sounds/7881_BTNover.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNout.wav",
+      "character_id": 7880,
+      "file": "sounds/7880_BTNout.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNpress.wav",
+      "character_id": 7882,
+      "file": "sounds/7882_BTNpress.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNchat.wav",
+      "character_id": 5302,
+      "file": "sounds/5302_BTNchat.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNerror.wav",
+      "character_id": 5303,
+      "file": "sounds/5303_BTNerror.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNcustomize.wav",
+      "character_id": 7890,
+      "file": "sounds/7890_BTNcustomize.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "privateMessage.wav",
+      "character_id": 7879,
+      "file": "sounds/7879_privateMessage.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNeditor0.wav",
+      "character_id": 7885,
+      "file": "sounds/7885_BTNeditor0.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNeditor1.wav",
+      "character_id": 7884,
+      "file": "sounds/7884_BTNeditor1.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "BTNeditor2.wav",
+      "character_id": 7883,
+      "file": "sounds/7883_BTNeditor2.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "dragVolume.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "note": "no ExportAssets name matches this string"
+    },
+    {
+      "attach_sound_name": "SATheme.wav",
+      "character_id": 5280,
+      "file": "sounds/5280_SATheme.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "joinLobby.wav",
+      "character_id": 5285,
+      "file": "sounds/5285_joinLobby.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "win.wav",
+      "character_id": 5267,
+      "file": "sounds/5267_win.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "lose.wav",
+      "character_id": 5283,
+      "file": "sounds/5283_lose.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "flamethrower00.wav",
+      "character_id": 7906,
+      "file": "sounds/7906_flamethrower00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "railgun00.wav",
+      "character_id": 7896,
+      "file": "sounds/7896_railgun00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chainsaw00.wav",
+      "character_id": 7908,
+      "file": "sounds/7908_chainsaw00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chainsaw10.wav",
+      "character_id": 7892,
+      "file": "sounds/7892_chainsaw10.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chainsaw20.wav",
+      "character_id": 7891,
+      "file": "sounds/7891_chainsaw20.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "lasersword00.wav",
+      "character_id": 7901,
+      "file": "sounds/7901_lasersword00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "lasersword10.wav",
+      "character_id": 7900,
+      "file": "sounds/7900_lasersword10.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "lasersword20.wav",
+      "character_id": 7899,
+      "file": "sounds/7899_lasersword20.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "helmet00.wav",
+      "character_id": 7904,
+      "file": "sounds/7904_helmet00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chaingun00.wav",
+      "character_id": 7893,
+      "file": "sounds/7893_chaingun00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "flamethrowerimp00.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "note": "no ExportAssets name matches this string"
+    },
+    {
+      "attach_sound_name": "railgunimp00.wav",
+      "character_id": null,
+      "file": null,
+      "resolves": false,
+      "note": "no ExportAssets name matches this string"
+    },
+    {
+      "attach_sound_name": "chainsawimp00.wav",
+      "character_id": 7894,
+      "file": "sounds/7894_chainsawimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "laserswordimp00.wav",
+      "character_id": 7898,
+      "file": "sounds/7898_laserswordimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "helmetimp00.wav",
+      "character_id": 7903,
+      "file": "sounds/7903_helmetimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chaingunimp00.wav",
+      "character_id": 7910,
+      "file": "sounds/7910_chaingunimp00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "flamethrowerpick00.wav",
+      "character_id": 7905,
+      "file": "sounds/7905_flamethrowerpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "railgunpick00.wav",
+      "character_id": 7895,
+      "file": "sounds/7895_railgunpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chainsawpick00.wav",
+      "character_id": 7907,
+      "file": "sounds/7907_chainsawpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "laserswordpick00.wav",
+      "character_id": 7897,
+      "file": "sounds/7897_laserswordpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "helmetpick00.wav",
+      "character_id": 7902,
+      "file": "sounds/7902_helmetpick00.wav.mp3",
+      "resolves": true
+    },
+    {
+      "attach_sound_name": "chaingunpick00.wav",
+      "character_id": 7909,
+      "file": "sounds/7909_chaingunpick00.wav.mp3",
+      "resolves": true
+    }
+  ]
+}

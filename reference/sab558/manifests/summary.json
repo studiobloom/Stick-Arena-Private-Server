@@ -1,0 +1,195 @@
+{
+  "header": {
+    "path": "C:/Users/johnl/Github/Stick-Arena-Private-Server/htdocs/stickarena/sab558.swf",
+    "signature": "FWS",
+    "compression": "none",
+    "swf_version": 8,
+    "declared_file_length": 7360142,
+    "actual_file_length": 7360142,
+    "declared_length_matches_actual": true,
+    "sha256": "f86d224501c202fb11c6c681c1ebdd6c2009b27f0a4a645351ad42ebeda3302a",
+    "stage_rect_twips": {
+      "xmin": 0,
+      "xmax": 11000,
+      "ymin": 0,
+      "ymax": 8000
+    },
+    "stage_dimensions_px": {
+      "width": 550.0,
+      "height": 400.0
+    },
+    "frame_rate_fixed8_8": 8704,
+    "frame_rate_fps": 34.0,
+    "main_timeline_frame_count": 22,
+    "tag_stream_offset": 21,
+    "main_timeline_frame_labels": [
+      {
+        "name": "titleFrame",
+        "frame": 2,
+        "offset": 620733
+      },
+      {
+        "name": "lobbyFrame",
+        "frame": 3,
+        "offset": 1218228
+      },
+      {
+        "name": "profileFrame",
+        "frame": 4,
+        "offset": 1408024
+      },
+      {
+        "name": "shopFrame",
+        "frame": 5,
+        "offset": 1782176
+      },
+      {
+        "name": "mapEditorFrame",
+        "frame": 6,
+        "offset": 1964140
+      },
+      {
+        "name": "preMain",
+        "frame": 7,
+        "offset": 2033477
+      },
+      {
+        "name": "mainFrame",
+        "frame": 9,
+        "offset": 2182481
+      },
+      {
+        "name": "deathFrame",
+        "frame": 10,
+        "offset": 2185728
+      },
+      {
+        "name": "optionsFrame",
+        "frame": 11,
+        "offset": 2187659
+      },
+      {
+        "name": "reportFrame",
+        "frame": 12,
+        "offset": 2223307
+      },
+      {
+        "name": "roundSummaryFrame",
+        "frame": 13,
+        "offset": 2235506
+      },
+      {
+        "name": "creditsFrame",
+        "frame": 14,
+        "offset": 2295978
+      },
+      {
+        "name": "preReturnFrame",
+        "frame": 15,
+        "offset": 2631874
+      },
+      {
+        "name": "prePirateFrame",
+        "frame": 16,
+        "offset": 2632910
+      },
+      {
+        "name": "tasvfsdfveg1",
+        "frame": 17,
+        "offset": 2635421
+      },
+      {
+        "name": "postPirateFrame",
+        "frame": 18,
+        "offset": 2635470
+      },
+      {
+        "name": "exportFrame",
+        "frame": 19,
+        "offset": 2635591
+      },
+      {
+        "name": "postExportFrame",
+        "frame": 20,
+        "offset": 5242720
+      },
+      {
+        "name": "exportFrameB",
+        "frame": 21,
+        "offset": 5242740
+      },
+      {
+        "name": "postExportFrameB",
+        "frame": 22,
+        "offset": 7360119
+      }
+    ],
+    "main_timeline_showframe_count": 22
+  },
+  "tag_counts": {
+    "PlaceObject2": 37560,
+    "ShowFrame": 24020,
+    "End": 1946,
+    "DefineSprite": 1945,
+    "RemoveObject2": 1865,
+    "SoundStreamHead2": 1851,
+    "DefineShape": 1806,
+    "DefineShape4": 1201,
+    "ExportAssets": 1105,
+    "DefineMorphShape2": 742,
+    "DefineBitsJPEG3": 675,
+    "DoAction": 575,
+    "DefineEditText": 470,
+    "DefineShape3": 254,
+    "DefineText": 195,
+    "FrameLabel": 187,
+    "DefineBitsJPEG2": 180,
+    "PlaceObject3": 131,
+    "DefineShape2": 115,
+    "DefineBitsLossless2": 104,
+    "DefineButton2": 100,
+    "StartSound": 83,
+    "DoInitAction": 83,
+    "DefineSound": 80,
+    "CSMTextSettings": 29,
+    "DefineFont3": 19,
+    "DefineFontAlignZones": 19,
+    "DefineFontName": 18,
+    "DefineMorphShape": 15,
+    "DefineBits": 10,
+    "FileAttributes": 1,
+    "Metadata": 1,
+    "ScriptLimits": 1,
+    "SetBackgroundColor": 1,
+    "Unknown_255": 1,
+    "DefineFont2": 1,
+    "JPEGTables": 1,
+    "DefineBitsLossless": 1
+  },
+  "tag_total_including_nested": 77391,
+  "top_level_tag_count": 9670,
+  "character_count": 7913,
+  "character_kind_counts": {
+    "shape": 3376,
+    "sprite": 1945,
+    "export": 1105,
+    "image": 970,
+    "morphshape": 757,
+    "edittext": 470,
+    "text": 195,
+    "button": 100,
+    "sound": 80,
+    "font": 20
+  },
+  "export_asset_count": 1105,
+  "relationship_edge_count": 9542,
+  "avm1_string_literal_count": 62069,
+  "avm1_unique_string_count": 6764,
+  "unknowns": [
+    "unknown tag code 255 at offset 2680 (len 1)"
+  ],
+  "timeline_frame_totals": {
+    "main": 22,
+    "sprites": 23998
+  }
+}

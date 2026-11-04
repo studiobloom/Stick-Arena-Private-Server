@@ -1,0 +1,3148 @@
+{
+  "repo_root": "C:/Users/johnl/Github/Stick-Arena-Private-Server",
+  "scope_legend": {
+    "target": "required for the Ballistick 558 workspace",
+    "shared": "used by 558 but not version-specific",
+    "other-version": "belongs to another client build; excluded from reference use",
+    "generated": "produced by this workspace's pipeline",
+    "unclassified": "needs manual review"
+  },
+  "counts_by_scope": {
+    "generated": 35,
+    "other-version": 139,
+    "shared": 139,
+    "target": 76
+  },
+  "counts_by_role": {
+    "client": 3,
+    "client-config": 6,
+    "client-data": 3,
+    "client-module": 10,
+    "database": 3,
+    "doc": 2,
+    "map": 206,
+    "repo-config": 2,
+    "server": 49,
+    "server-config": 5,
+    "web-asset": 26,
+    "web-backend": 7,
+    "web-config": 1,
+    "web-data": 1,
+    "web-frontend": 30,
+    "workspace": 35
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "scope": "shared",
+      "role": "repo-config",
+      "note": "git attributes",
+      "bytes": 278,
+      "sha256": "d3628544586daaf804f46db9acf44ab41202281e1d04a29b6b1d2dc1bdf27b44"
+    },
+    {
+      "path": ".gitignore",
+      "scope": "shared",
+      "role": "repo-config",
+      "note": "git ignore rules for derived 558 output",
+      "bytes": 871,
+      "sha256": "84ec2ddb24c248832a66c558f64feb5e83bbd57d14fee18c2c7503c74b062ae1"
+    },
+    {
+      "path": "AGENTS.md",
+      "scope": "shared",
+      "role": "doc",
+      "note": "workspace rules for agents",
+      "bytes": 5695,
+      "sha256": "ead5b6ab27ba820db1240c0a2a6f631ae0c01234f1bd54e26b7b2abf8016cfa0"
+    },
+    {
+      "path": "README.md",
+      "scope": "shared",
+      "role": "doc",
+      "note": "project README",
+      "bytes": 13287,
+      "sha256": "e98742ac656bc0c1685e99649a10e6e65d3126d595556d9ed70ac5e0fc8c47e5"
+    },
+    {
+      "path": "Import database/ballistick_struct.sql",
+      "scope": "shared",
+      "role": "database",
+      "note": "MySQL schema and seed data for the server",
+      "bytes": 9676,
+      "sha256": "6df7a0dcb800f95225dd5faac689773930244ad9aadc9a4963ff00156df2882b"
+    },
+    {
+      "path": "Import database/example_users.sql",
+      "scope": "shared",
+      "role": "database",
+      "note": "MySQL schema and seed data for the server",
+      "bytes": 5861,
+      "sha256": "9903ad0d50970ca9a6c2fb7d32c0c4ad5da0b31466d4486f64d843ac79d2162a"
+    },
+    {
+      "path": "Import database/map_users.sql",
+      "scope": "shared",
+      "role": "database",
+      "note": "MySQL schema and seed data for the server",
+      "bytes": 122387,
+      "sha256": "b6355afb3e667ea407b43f620f74c260b253d8d003adefa24b60494009db929a"
+    },
+    {
+      "path": "ballistickemu/.gitignore",
+      "scope": "shared",
+      "role": "server-config",
+      "note": "server build/run configuration",
+      "bytes": 56,
+      "sha256": "4e98cd9fe087a6249ce0f98c8e048f40a1819a597347e75323e5d8ab4fba6fff"
+    },
+    {
+      "path": "ballistickemu/config.properties",
+      "scope": "shared",
+      "role": "server-config",
+      "note": "server build/run configuration",
+      "bytes": 191,
+      "sha256": "cd99b9a50ffd3a8876c81790af86ffbf1bbba357c3fd92d8c6acb7a61564a785"
+    },
+    {
+      "path": "ballistickemu/log4j2.xml",
+      "scope": "shared",
+      "role": "server-config",
+      "note": "server build/run configuration",
+      "bytes": 849,
+      "sha256": "6cc101f400ce41834228cfbf3ada6e84c9e2eaba08fb6ca160258e95bd165fc9"
+    },
+    {
+      "path": "ballistickemu/pom.xml",
+      "scope": "shared",
+      "role": "server-config",
+      "note": "server build/run configuration",
+      "bytes": 2318,
+      "sha256": "10781c6bcd99eaf45c6872153177fd8d2f262f0e44bf4744906ae389280c9e63"
+    },
+    {
+      "path": "ballistickemu/run.bat",
+      "scope": "shared",
+      "role": "server-config",
+      "note": "server build/run configuration",
+      "bytes": 93,
+      "sha256": "476f26ab72ce01efc3f99df564f8c54434148078f3ecc7b5587151100c002957"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/ConsoleCommandHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 31946,
+      "sha256": "4edc87a7977e0fcf2d73727e33e9314d54264134e897b92c35bb4958de8aa0db"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Main.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 5119,
+      "sha256": "2f256b65830f9509a02f098fe24666174f8b977ad9a213a82138142692c44ecb"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Game/PacketHandlerGame.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 5175,
+      "sha256": "1986e9133cdaa041783e954a3fc7bdfe9d21f73854cf49811909a19d983abcf9"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Game/handlers/GamePacketBroadcastHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1291,
+      "sha256": "85ba68ede8bbd94cb11f756782489b95ef1553701d6ca728d086ca0809bb5e50"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Game/handlers/KillHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 747,
+      "sha256": "ad9a3f5f28515d5058a9dacd1549117d4e7e98e9de63ad2a5912ea00bece43b5"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Game/handlers/MapRatingHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 441,
+      "sha256": "a4df2e4ac702d0f13ec4a89f2689670a60e85d512f2cd409216ca2e316ffdf31"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Game/handlers/SetMapCycleListHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1233,
+      "sha256": "1db8cdb38d4242b565a19a83d2ec1b19f8d6caf23f2ba0d682aac25a4584d9ba"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Game/handlers/VoteKickHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1635,
+      "sha256": "70218d3558ded1541405142f0bb59e321ad967d2031ccb9103b41d12cb656079"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/LobbyServer.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 5825,
+      "sha256": "7c0c40a07215ef2ed64192a499fa6006db03921d91805543ef16d32d42629ea6"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/PacketHandlerLobby.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 5670,
+      "sha256": "9c7d008e83fd6be4d1c09a993a8c86f071f3cb7d52e291dbb1f292b3c5d4f1c3"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/BuyItemRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 3880,
+      "sha256": "1fa6f4db33ec39be37071144bfa340493dfd60ce9ff1457d4e3eefc72eb60187"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/CheckCapacityHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 663,
+      "sha256": "e36eb3f5c2bd186f991638774bd78d1f34bac7292501ebb0e4eecd8aefc4aefb"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/CreateRoomHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 3811,
+      "sha256": "224ebb3e6efc19e5d11b2b47b611c91d66a7e34e881127a762beb359af1a8704"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/DoubleLoginHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 407,
+      "sha256": "8656543dbf506aa85a07c8fa52c8d85b70f436f2b85db6b631e161cf761c34d7"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/FindRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1379,
+      "sha256": "c97168b66be2d32976e2a86296259e1e540151e944d5de0fc768cb75f5620116"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/GeneralChatHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2558,
+      "sha256": "ab52f1a0da6bd69f44bea02d49ba1f5dbf0065a05edbbf739fb387115120a9aa"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/GenericSendDataHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2248,
+      "sha256": "7737da2befb4d287646e0370d024ebdcfcaf3d37ee85bb3a76db1481a69a758c"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/GiveTicketHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2264,
+      "sha256": "532aa85522dcb164615650f665eadc409fd0aa09af1c3a0c05776380e640c1fe"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/InventoryRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 663,
+      "sha256": "fdfa5501a7b509d2624d4b0a1504ad810932280cf19317c8aa52afe27993cf69"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/LoginHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 9997,
+      "sha256": "dfaee42b95fee6208c9fd347d27fd2c374e8b466bb7ceed17e17ba9ddb76cb08"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/MapCycleRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2356,
+      "sha256": "da3f2bf176c65ce7c990869beb4274cf48deaa75ca45e2e3e6bbb1496f0a60ed"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModBanHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1203,
+      "sha256": "549f6818c035e5bf78706047e83d6edc41b2e0f3cb86ba067c9d08291eafb2fb"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModBanNameHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 953,
+      "sha256": "66cce97efb221ab5d0a5f70ff57e8cf6a3752955320f061330d21ec3da9da558"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModCommandHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 16633,
+      "sha256": "5980107a0fefcbeb5cec9d7cf76d09a4571f2a310843b7b5bb36e3c9b99e8917"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModGlobalHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 651,
+      "sha256": "b919a4c7867fd75a324d5e760965c356e0abec09b7194a065c8e4f073aaa4513"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModKillRoomHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 949,
+      "sha256": "22d815fede1848cd35661139327310606b6b9c7183f4d994602f57ef13876229"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModRequestIPHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1050,
+      "sha256": "0e754d47c9d415c5622d2142bcc377f8be59222a76282f944283ea15d318cc68"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/ModWarnHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1056,
+      "sha256": "0e8bb1704d9d7e0cc828c2331d1f3aa3798098ff5aa8c1fa549675bb1f48d308"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/NewClientHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 5792,
+      "sha256": "4e165bbad1c11c31198dbc9c7be40ecb93b4e196992687383447990a61f9b324"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/PlayerCommandHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 14151,
+      "sha256": "4faac1a0947cf899b2e4245a0c84e58076c128b5268840ac9b31e7a056d0e035"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/RoomDetailRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1901,
+      "sha256": "bb00685a04c88644846f906a6915c6bb270e9691f156c834ca7441457b9ff510"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/RoomRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1345,
+      "sha256": "f200c804d5e0c5f7ba8a0b9209ff368ad2d186190726c9c25ddd8ef4f01c42ec"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Lobby/handlers/SetActiveItemRequestHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2642,
+      "sha256": "cb4b1355f429be1b8a67f784d320ff862e7147173bceec34008c6f7b565b2d9f"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/DatabaseTools.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 4000,
+      "sha256": "c24939b9b7df9f1bba2e6adf91ebba72a6d07e89d00936e078f37a8903545876"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/ItemType.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 496,
+      "sha256": "31688d10fd8e3158d88123c4b8e2048620ec10d4388b79eb9fc34f7ccdab6856"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/PasswordHasher.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2005,
+      "sha256": "b9db827e688cb2d78712e5693ca18de29e409cd2a35e495bdc4bcc43b17d7a89"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/QuickplayTool.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 3240,
+      "sha256": "463e0217d73c3e8c6dc830b85d0ad925edea4530df5da2ed5b0db85bfcb3738d"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/StickNetworkHandler.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 4422,
+      "sha256": "78d6e07059d79d8925465ea20738a834f7d7b34125123ef8f22b49692fdb6386"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/StickPacketMaker.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 14843,
+      "sha256": "0bbf8dd69a908fd81c8fcf280c789739f2196fd7994924f0052c2fcfaf88b7b3"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/StringTool.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1585,
+      "sha256": "fb01b3d80d2a471a498b4d4d906ce96903feacfb857e7ac3b0bcd8425a2b4630"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Tools/UIDTool.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1957,
+      "sha256": "2011f543384cb2234e77fc6eda454b1648f2318989b5d6661e09ec84145b2948"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickClient.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 13366,
+      "sha256": "b5b6d6f29e2ae30c16f28933caf7ff09aee4a505ae68bc18150c63d0a05f806b"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickClientRegistry.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 6244,
+      "sha256": "f54ec0841ad4da6c2527079598947c44c95dc4f032a983f1f6d329b435198725"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickColour.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2529,
+      "sha256": "cf2a63cd91dc215fa43dd7b82b7d260d328a641e728ef31bb5744b840c2b4757"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickItem.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1459,
+      "sha256": "cdb09b09bb652a073993bcc39b13c8c38b94f106fe8ac6cdf6a3fb537dd47ede"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickPacket.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 520,
+      "sha256": "dab3e017f611cc4e81eef4e8b7e74f6a47bcaaa00c5b289beafa2b4b70079abd"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickRoom.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 11144,
+      "sha256": "de593a4b36cc89c6b2ee3319a0f0d5df5cea85a984c4e9a7e5bcd868ca983915"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickRoomRegistry.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 2869,
+      "sha256": "a4b5dbb39ae67c934013eb24e8be51fbeff2654723fa26b3d4ee5214f717534d"
+    },
+    {
+      "path": "ballistickemu/src/ballistickemu/Types/StickShop.java",
+      "scope": "shared",
+      "role": "server",
+      "note": "BallistickEMU game server (Java/MINA, version-agnostic)",
+      "bytes": 1744,
+      "sha256": "9da1e417549ff5459d4629168aa7e10b9013525d6dbf8173458cb79c00ce0d2e"
+    },
+    {
+      "path": "htdocs/stickarena/api.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "map storage/retrieval + xgen map import API",
+      "bytes": 13379,
+      "sha256": "3d04d58c57ce05d689e274cac191250757bcf797c8ffc103f5847c47e61c525c"
+    },
+    {
+      "path": "htdocs/stickarena/class.rc4crypt.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "RC4 helper used by the PHP endpoints",
+      "bytes": 2240,
+      "sha256": "625c6d52a079223aef004ab16cc4c59556846623c55cdb255b637f73b1f7ff6c"
+    },
+    {
+      "path": "htdocs/stickarena/crossdomain.xml",
+      "scope": "shared",
+      "role": "web-config",
+      "note": "Flash socket policy for the game server",
+      "bytes": 180,
+      "sha256": "69c866f410521edde1724ce534ea7eb759a2cc23e4d83c0abd70f346ec0cae9b"
+    },
+    {
+      "path": "htdocs/stickarena/dimensions.swf",
+      "scope": "other-version",
+      "role": "client",
+      "note": "Stick Arena Dimensions client - out of scope",
+      "bytes": 6285006,
+      "sha256": "e4e5a7fba3e4267e4b7dc0f6f882cbfd144e848f3a44c657024d68e45c9d3bd8"
+    },
+    {
+      "path": "htdocs/stickarena/index.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "web front end around the SWF",
+      "bytes": 456,
+      "sha256": "815d18ee58dead490cdf27ad1b3a6cbd732f9d4bd90c27ccdd473472aee6f5fd"
+    },
+    {
+      "path": "htdocs/stickarena/lostaccount.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "web front end around the SWF",
+      "bytes": 1108,
+      "sha256": "12aaf8473b61adb4924c9e8aa93ed7b16e765deb54f54731aa8bdef0495ad488"
+    },
+    {
+      "path": "htdocs/stickarena/mapEditorTiles.csv",
+      "scope": "shared",
+      "role": "web-data",
+      "note": "map editor tile reference",
+      "bytes": 9791,
+      "sha256": "e111905fd46468790775c3b436801f9286d2f6f144df61ab40e0a932d298c4b7"
+    },
+    {
+      "path": "htdocs/stickarena/sab558.swf",
+      "scope": "target",
+      "role": "client",
+      "note": "Ballistick 558 Flash client (the extraction target)",
+      "bytes": 7360142,
+      "sha256": "f86d224501c202fb11c6c681c1ebdd6c2009b27f0a4a645351ad42ebeda3302a"
+    },
+    {
+      "path": "htdocs/stickarena/sab588.swf",
+      "scope": "other-version",
+      "role": "client",
+      "note": "Ballistick 588 client - out of scope",
+      "bytes": 5193931,
+      "sha256": "32c98c356df78eeb1f0b167bdf28aafcb711c7ba80e1f2763ac5adf21cfafd7d"
+    },
+    {
+      "path": "htdocs/stickarena/settings558b.ini",
+      "scope": "target",
+      "role": "client-config",
+      "note": "558 client settings: server list, controls, map cycle, gameplay values",
+      "bytes": 50830,
+      "sha256": "e3b5751300c0ad3b7662f6f6fb056190288cfbaf0717f6526cffaa161c03651b"
+    },
+    {
+      "path": "htdocs/stickarena/settings588b.ini",
+      "scope": "other-version",
+      "role": "client-config",
+      "note": "588 settings - out of scope",
+      "bytes": 49101,
+      "sha256": "4e1f888df831ea0eba3ac362dd81d19fa328761fcbac3fbe338cd1fbeaca077b"
+    },
+    {
+      "path": "htdocs/stickarena/settings598b.ini",
+      "scope": "other-version",
+      "role": "client-config",
+      "note": "598/Dimensions settings - out of scope",
+      "bytes": 50796,
+      "sha256": "71267799bb3b061d2c73fe9cc8d067b14ffb96178b551ddcd7b0b11c9d58ca36"
+    },
+    {
+      "path": "htdocs/stickarena/stick_arena.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "account, stats, inventory, highscore HTTP endpoint used by the client",
+      "bytes": 7135,
+      "sha256": "9b1ea59d071eefb18aa6897b4d63bcf366fcee2ce5d6397ab8a2bc6c67468c38"
+    },
+    {
+      "path": "htdocs/stickarena/upgradevalues558.ini",
+      "scope": "target",
+      "role": "client-config",
+      "note": "558 shop/upgrade price and item table",
+      "bytes": 1841,
+      "sha256": "8ad1154f9751aa1e864b3d9e03c9e00f3718af2b37192924fa3cc4297f1500eb"
+    },
+    {
+      "path": "htdocs/stickarena/upgradevalues588.ini",
+      "scope": "other-version",
+      "role": "client-config",
+      "note": "588 upgrade values - out of scope",
+      "bytes": 1774,
+      "sha256": "d52a09d320c0368d574b501f9f8864746c9901aabbc31958a7f2cf9c6725847a"
+    },
+    {
+      "path": "htdocs/stickarena/upgradevalues598.ini",
+      "scope": "other-version",
+      "role": "client-config",
+      "note": "598/Dimensions upgrade values - out of scope",
+      "bytes": 1841,
+      "sha256": "8ad1154f9751aa1e864b3d9e03c9e00f3718af2b37192924fa3cc4297f1500eb"
+    },
+    {
+      "path": "htdocs/stickarena/version_check.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "client version gate (accepts 558/588/598)",
+      "bytes": 335,
+      "sha256": "2b843c28063b65442d9ac7916e9354f74e622bfa035d69a3bf102b003ec36bea"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/eula.dat",
+      "scope": "shared",
+      "role": "client-data",
+      "note": "legal/FAQ text loaded by the client",
+      "bytes": 10975,
+      "sha256": "1a8b599f97f5bdcd22bca40f10488997ad1b47de167cbd3dc7cb44d54398a47b"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/faq.dat",
+      "scope": "shared",
+      "role": "client-data",
+      "note": "legal/FAQ text loaded by the client",
+      "bytes": 11700,
+      "sha256": "1315673d7db39ae8096d7c72da0532259ac8749a15089df77fd7bd357385c784"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/recover.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "account recovery page linked from the client",
+      "bytes": 5090,
+      "sha256": "d573e53a98c676d2147ff04dce2f668d92df341c37c60588c0cfb7613e569683"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/BuyPassKreds1.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 17142,
+      "sha256": "e0748992ad80d12962f81de7bb34f4832b451939697be4e6681af86d327d6d8e"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/BuyPassKreds12.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 21211,
+      "sha256": "716947710a630596c0858c1a8daca4ad64834bfe343ca06816c7a108ddac6041"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/BuyPassKreds6.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 18501,
+      "sha256": "c85ba8466355ef4bc32dda5c6d8325da5dd06a3b4c0579ed21ef1538eb948da4"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/BuyPassUSD1.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 17111,
+      "sha256": "3090e793bb429bd9be8e8eeb762df4f8abdb75aa713a0c80e022a14eeb29f087"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/BuyPassUSD12.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 19347,
+      "sha256": "f41e17e0fc2fbdc0262c7d6ca352eace2b530d8d1fd1676de2e4d95c4bde488c"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/BuyPassUSD6.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 17085,
+      "sha256": "b5538d40acbf88e0da6469e431b569841b2644f592a15fc64f3e78213cf0efb3"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/Features.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 193338,
+      "sha256": "dbf75012f6fdcf1e64dd25831cd050e8824800f9d09ab5235d0243ae7be6c3a4"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/NoCash.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 6332,
+      "sha256": "b371eaf5e2a29ef450d9e98e992ddcbf2cd303ceada41b3552866b0d51341b4b"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/SelectAPass.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 42263,
+      "sha256": "e4b1092b611236ebc1351d6de662a2af8596985507a0a7dae42eac32f1726cea"
+    },
+    {
+      "path": "htdocs/stickarena/ballistick/ingame/SelectAPassXGen.swf",
+      "scope": "shared",
+      "role": "client-module",
+      "note": "in-game shop/pass SWF loaded by the client (version-agnostic UI module)",
+      "bytes": 35576,
+      "sha256": "63ade296cd96b2a1cae1dc62877068157b90c224baf5363e79fee6a970b57d95"
+    },
+    {
+      "path": "htdocs/stickarena/com/languagefilter.ini",
+      "scope": "shared",
+      "role": "client-data",
+      "note": "profanity filter list used by client and server",
+      "bytes": 1739,
+      "sha256": "850ba1fc81e2fc9021440561d37a7a36c16adca4c645558e320e4b7073c75107"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank0.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 861,
+      "sha256": "b97ea405a14a19e38bd66a1444692574816571276c2e8fd6c77fe728ce6be56c"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank1.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1276,
+      "sha256": "dd1cfb0ec4bf3145eb34f67f5dd590080491c82ba1bdaa75d45f51f7e0be2d4e"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank10_p1oa.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1417,
+      "sha256": "35724064c1d0c79fe7fe9db8e4b51a9522d34787838df626cdaea0f722cdcf4e"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank11_kdj2.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1365,
+      "sha256": "c6409c92f6c933295811c695fb18b062a88de9b03fc5b80c576fcb09b10421d4"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank12_12k3.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1652,
+      "sha256": "87e165aa64e816dfc7fa744b36e1311280462f4c40acc2ef97323f884c569478"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank13_pl92.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1478,
+      "sha256": "30a0d52a0cfab41c83daef8c53821a8dd4327e6fdd7f9aa31f49492cb846f5c3"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank14_ll2d.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1627,
+      "sha256": "79843cdabf0870e4d24836a4e22a74c8c17d7fde86503b027d8675e9b9065faf"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank15_20ty.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1450,
+      "sha256": "8c3a20b00b00ab227f7cc2014002c3144c33ffa2863037a15b765cecfab94a18"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank2.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1470,
+      "sha256": "cc8836b6f1a246f500d2dfd6c329ed089f43a4214339ed84586b60be35614d03"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank3.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1558,
+      "sha256": "b59d78f81a1226f1fcf6be476a9dd92df4decc296e4e4a99b72ded1314a6197f"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank4.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1547,
+      "sha256": "061be51d33228fcdd33c3a04c9ecc829c7d2a14b97ae6f9cd985950cc1fe498f"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank5.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1597,
+      "sha256": "52694373346dc2f143fd32baf5310a6037763b44319e48831320057f9e763a51"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank6.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1586,
+      "sha256": "4ecaefab1faa0ba902a17f3997ccbe3cb322c35509a30abd1dfeb7b5b75104f6"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank7.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1691,
+      "sha256": "8952b2010b80873b1b8fe48bb476033818c4b3f443d83abd23eaab3c87eb7248"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank8.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1584,
+      "sha256": "64982fea1ff474a33e3bedd01d3fcb14b2fae46d4129defd2beefc324aa54250"
+    },
+    {
+      "path": "htdocs/stickarena/images/Rank9_x9ac.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1701,
+      "sha256": "56c5296f7bbbe7598d37877364823620f6910aabbc3754cd4403b3e83e7ffc6e"
+    },
+    {
+      "path": "htdocs/stickarena/images/Season1_SA_Trophies.png",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 254397,
+      "sha256": "6829b46d48de9df9c98e9111fac00d9f882ae5841e0cc77cf2845eff99d15e79"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-full-bot.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 7730,
+      "sha256": "14dfd5deb3bc59621af427dd3a9615f8ef9e751a550f6ae8d908ad48ada27664"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-full-mid.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1452,
+      "sha256": "a53a2a5aec9cd759a44b688078e1c47d994a27c68cab162e07c0ce1ec0410dc8"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-full-top.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 4409,
+      "sha256": "5a5e52378ccc15018ca33b4ce774adb48a306251215148b146ba74042da34d27"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-large-bot.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 4940,
+      "sha256": "f70d300270e84d20cfd260efd8474c826f227bcc2e1164e57b72557887909aeb"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-large-mid.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1220,
+      "sha256": "bbf92bfe0363947d7f8fb4f1e22dd21d9a274622c8d510a431797cc8bf3da268"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-large-top.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 4346,
+      "sha256": "420588dd750062f03ca25f8763c4ea09477d45a53a35a5e045f5187e879906f2"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-tl.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1152,
+      "sha256": "fb300ca5bd4cb1c8f3aba1729d2e646566c5ab3104026fe32dfebc24c578fef8"
+    },
+    {
+      "path": "htdocs/stickarena/images/box-tr.gif",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "rank/box images used by the PHP front end",
+      "bytes": 1154,
+      "sha256": "b963c54436278faa0af4f4de9af5c61d507cbf1f6ed5cd9af405eb67945b55a7"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__brawlersburrow.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2098,
+      "sha256": "7227e8b1fd72a9f5054b1dd1485b0e56d528ebea2f1009ecd94db3983a8907ed"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__concretejungle.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5038,
+      "sha256": "984131862e3cd296f5f90f779af7b1bc751540e670d6b7a5611bd8b3493b08e3"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__corporatewasteland.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3110,
+      "sha256": "0c13fb14493c00909264fef817f07aafc65406500fd2dfa3511e3aef5b051ad6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__floorthirteen.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 9265,
+      "sha256": "d771c5da84ad5eae31bc8aa1f9403d7c7003a9b295444b7e282a6c03326b3363"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__globalmegacorpltd.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 10389,
+      "sha256": "c8e21e17d89893b3b20094d245abf05d175b1ffd5e1a53f498af1a41d723a3ca"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__greenlabyrinth.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4338,
+      "sha256": "361226ee29cdff52870f9a7b3e883cc2a0ae8b48923d1ed805464371666a79e6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__industrialdrainage.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6470,
+      "sha256": "b620acf5e53b202f9caf933c95db0916ce8bf118eed9810ea11c40a5952e0b5f"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__nuclearunderground.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 8711,
+      "sha256": "6ce28657bf1195e81b341181035c445988002f9f761e8c85042a46fbeddf58f6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__officespace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 9123,
+      "sha256": "2521f3d544b326dc2c571d883cc583f3f544e33e0cefc313f664556ace3f0cdd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__sewagetreatment.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2547,
+      "sha256": "3d334ad7a6113851216d5b72e2d137016e4d1a6612b306201240f62c7ba555a4"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__storageyard.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3103,
+      "sha256": "96a1eef327ec4ac2ffa8be70cd52ac280e3e24992d9ac8c791b5322a43282cef"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__stormdrain.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2094,
+      "sha256": "e85c482e00b30f69de9ceada0e3a6885e9f8b2186e5cf1488a94bc41ced675e9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__sunnyvaletrailerpark.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4345,
+      "sha256": "2e077117c421e3e55930fb037abb9649d0117344fd8251934842337c16aabd2d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__thefoundation.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6164,
+      "sha256": "e5b59f78d306c89668c29b49afef980283052d61f14b111e41b45522707145f4"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__thepit.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2090,
+      "sha256": "249552c09bf2438d9c153083e97e933f2b573d9a2fdc9ba89b93dea27e5ffe17"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__toxicspillway.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5597,
+      "sha256": "10abc19bd43586126fc3c734c20bbe62b91539e5a641763ce31a9b66289e174e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__trenchrun.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 1995,
+      "sha256": "b272dc2c110d1d69a8e268f123b4dc19e089cfa76a4811c8cb50fe2d4a33fe01"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__unstableterrace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3107,
+      "sha256": "e2504c7c1f62eeaafe161bc637f0752943615609fefa3ca80f2eca358bdf2bbc"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__workplaceanxiety.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2058,
+      "sha256": "2f2451d8f66a4e6a5da423e5d0d0e5350cadc1e58f5649cf3ae34f82ddb1b732"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/__xgenhq.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6184,
+      "sha256": "d620fff426d9719fa499a04d5d26779fed690a83f2cd52dca0431dbd38e268d1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__automateddiscoverypod.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2106,
+      "sha256": "0d33a84c7c323e2ee0277bfc53b6b127a0baec9da4a6185074a51bec4d498679"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__barge.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6680,
+      "sha256": "7932582959c679fe7f80c316621908426061f2be84e66a6e3d877b4181259d45"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__cliffside.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6460,
+      "sha256": "e4677a0c92e1139c06a91f6e82abb7669aa35fb9f9506eeab863290fcd14ba3f"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__geminicontrolstation.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 11513,
+      "sha256": "ed11a4b06242e3078314e9c061fb96cfadb72862088c7d73d0bb203be5327ca8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__orbit.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5589,
+      "sha256": "dacd996bc07e63f138fb20b186cb9ab4e372bd4f6e526e328720044a2d0ac42b"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__outpost.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3798,
+      "sha256": "c43a591b471033f5cb7bd0272d3e0421df36291918df3eee9b3d1ddfa846db83"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__spaceelevatorcontrol.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4016,
+      "sha256": "0eb189858c47714879b0b78d5bb2ccccc94d0ff75406275d09cd6b63efed8685"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__spacemountain.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2461,
+      "sha256": "287be4c8a7609effd2e3e0570cd040305f20860f6980268e392d15fe9a6f1c70"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__stickfederationhq.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4930,
+      "sha256": "973afd47b1228562695aa05222abd6aa08cdd594323b594388d918947b6b1804"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__thesfvengeance.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4927,
+      "sha256": "2baba2ccf70b441cf7d76865986a17c2a2cc232e0df3dae9f047cfeb44c834a2"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/ballistick/__transgalacticcomstation.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3704,
+      "sha256": "2b3df116ac631470b260f77f496b36ea26424eab1ebab8e2d82d8a12fd26b6c8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/NOTE Map0 - Map14 copied from Version 563 Maps.txt",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__abandonedcity.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4346,
+      "sha256": "c6e17d2c177b5b23497b87f93d4ac1126cc1c9228ac1892259e2f0c7f6589d26"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__alientestlab.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 7020,
+      "sha256": "3ca1e95d568aa2b845f0c4f8a44c5774ced34463ee3a4d15d0d67c615a06a100"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__anarchystreets.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 8894,
+      "sha256": "7c907c161d9bfdcf9e51c5a3f758ba8c7a905e21054193ae93efc6f2c646924d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__battlegroundbase.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6624,
+      "sha256": "38104b37c2ab8038a8278708160e382b3526e6a6f7dd5e85d02057a68390f175"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__cliffs.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4982,
+      "sha256": "1a60bfb121d13364ce37d09d8fc8a7aaaef01d59f86668611f34db7440cabd53"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__cruelity.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4859,
+      "sha256": "f4152e62055dd4d4187c150630b3778d440cfda5d7ac8e8fc414d9ba6ee1f76d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__cubicles.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 2410,
+      "sha256": "dda939784260547ce070a67c20afb798760e798373526db9ee41e5cffaa79ea8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__dday.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4694,
+      "sha256": "1b9596c025e62f5b8f29f554216af685d357d65185653570d2817d4947a342b6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__deadspace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4688,
+      "sha256": "a3d05376a92b654d18d300ed62efd21fdd3d3afdfb076ec5ba18f1a5fa1b5bc6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__desertlaboratory.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5426,
+      "sha256": "28823ec88d049e1e40128a67fae3ea42ffb3c09ea0ed9759cffcff9678f199f8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__elitebase.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4175,
+      "sha256": "1bda7eeec77c713ada4747c70c51932742dd428e60ad62469fbfbc02b3f91d8d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__exploration.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3704,
+      "sha256": "1ef5c5981e8906995f5fa7c10ec6b12e58c61d5c5b9c46b7019672192d2174bf"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__facility.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5802,
+      "sha256": "0c11f3a124f7da7ac7266c10dc8b2a56cc235d70028b69f9cb3f7a2841d186c8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__failcorp.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5043,
+      "sha256": "c2cf64b806d3ba188b3137b06e6f0dbe87ba862e0a90a23e0aa30619270aeab7"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__fortmoon.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4342,
+      "sha256": "25f8b1a88dccc977a694a6b8ade52d54b84769376dac0f6cd7bda35eb065da72"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__futureoffice.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3256,
+      "sha256": "19c043d161974065b4581dc243c4dcc1d836be31ae7b3d40ea72969ead8bec34"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__islandhopping.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4348,
+      "sha256": "2bd4c3d3de8435490c7bb6068c5bcd163c92ea8860e649b97e3d937fe03292fa"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__islandsofanarchy.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5028,
+      "sha256": "c6cc279b5f488dcc989df5a4c567726f78b2d6d91e579b95d0476f343322213e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__lastmap.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4690,
+      "sha256": "79ef19c1c38c73ca29e57631f21cad1e222737e42eaa63f0a9fc44587063de71"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__leetspace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4687,
+      "sha256": "a24927db4f946d6b5041c2d114c21a37a43e6570012a5f6958dcb8fc60939702"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__lostfacility.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5045,
+      "sha256": "1091a84d368ab93689e29282e0dd3363b2ad21218efca3546b8618a69a28bbb9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__lowzone.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4699,
+      "sha256": "d9542b38622dd8e2bd46e99638f33bf5c4b2698022a07991e4c1fafed93c1d4c"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__markedterritory.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3707,
+      "sha256": "c6475cf9162d87a66c0ad8dd3d95e01b34b54a319eb19b400c95a17506772cc0"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__mypetglock.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6619,
+      "sha256": "3c599909fa5a97621a1f231f9700dd1e0df0fe34aef050d4443c017b3811e021"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__oceans.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 11511,
+      "sha256": "ecb125ebdce3fd836bf0c36b8694548d6e31720f7be41ab131407914070811c1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__officepod.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3118,
+      "sha256": "3dec721aa85d4d858f4c424dc4a0a50c66ead97cb96d6cb9ba343fefcd41228e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__outerspace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5773,
+      "sha256": "3e7e792bd46eeeac91d05b0d619d80e67648fb3b94af13d8c51fbfd263a9704c"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__outerspacedestruct.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5922,
+      "sha256": "b29a43dfc9903c0e29d42018b086e416d8c3eb1f6ca9345a5ddac4a0f9ebe78a"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__parisstreets.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6616,
+      "sha256": "e6ac1840161fd624c2f2ff8cd88195dbac2ae913bf0ac8769ba9e2d8b699a622"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__radiation.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4685,
+      "sha256": "1891ab1f6f4daa2438e52721f28c2f5ee71ba67c89e37efb3bd73fc4f46251ab"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__sewertunnel.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 3675,
+      "sha256": "eaa0c10c12df70a2bbacadbc00b73e0c02fa3f7e2d0063e45214c8bd312c8be4"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__shelter.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4340,
+      "sha256": "a3c77a40ad984f8d7cc674847f7e0a8d3af4182334e30aca60cf9ba4fb7a8606"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__shipdock.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6199,
+      "sha256": "3a3778863ac0b52387f025f4c77235cfa332f18f734617be4106e2f5a74b5861"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__spacebridge.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 4024,
+      "sha256": "bb6d78f7140179379d3eb9810a07134d17ad516442915b2d4ba3e222303e170c"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__spaceexcavations.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6442,
+      "sha256": "b5dbc2ccee79e84796601a3c00816d91c7091ca65a0553f3a095f6221265f270"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__subterraneansector.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6208,
+      "sha256": "bdc0aa9384992baf6cb74b0c9af35920b5fd67b9dad55714b96cb597005c9db2"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__trenchspace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5048,
+      "sha256": "5a98735529516908e0c2624eab9f1ba3c3cf8e485601baa37b1e19d479fcf6fd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__underspace.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6826,
+      "sha256": "195e05519e761f2c600cd83b4f21fdda26cffafd484cd74193296b4282855926"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__universityofstick.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5576,
+      "sha256": "5ef4512ecc3038154ed197f251fece595d7dffa8790ae9e61147a7720f3141c9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__venicestreets.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 6617,
+      "sha256": "674c512fb8b0eb4d665ed024f11ea5c1f4f6be4a53cc00d2c4b30b3ed711c284"
+    },
+    {
+      "path": "htdocs/stickarena/maps/558/feature/__voiders.dat",
+      "scope": "target",
+      "role": "map",
+      "note": "558 map data served to the client",
+      "bytes": 5410,
+      "sha256": "a4649e9b1c3860da04341241d2d0dee65b4a7640c0a779d0e5c0de3991c63d9e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__brawlersburrow.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2098,
+      "sha256": "7227e8b1fd72a9f5054b1dd1485b0e56d528ebea2f1009ecd94db3983a8907ed"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__concretejungle.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5038,
+      "sha256": "984131862e3cd296f5f90f779af7b1bc751540e670d6b7a5611bd8b3493b08e3"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__corporatewasteland.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3110,
+      "sha256": "0c13fb14493c00909264fef817f07aafc65406500fd2dfa3511e3aef5b051ad6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__floorthirteen.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 9265,
+      "sha256": "d771c5da84ad5eae31bc8aa1f9403d7c7003a9b295444b7e282a6c03326b3363"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__globalmegacorpltd.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 10389,
+      "sha256": "c8e21e17d89893b3b20094d245abf05d175b1ffd5e1a53f498af1a41d723a3ca"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__greenlabyrinth.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4338,
+      "sha256": "361226ee29cdff52870f9a7b3e883cc2a0ae8b48923d1ed805464371666a79e6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__industrialdrainage.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6470,
+      "sha256": "7ec6e62b07da7b3ae5c35a9badabc4246080570f6a02e5e1f5b0f55d773aad26"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__nuclearunderground.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 8711,
+      "sha256": "6ce28657bf1195e81b341181035c445988002f9f761e8c85042a46fbeddf58f6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__officepod.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3105,
+      "sha256": "0267bc7bb385fa877e3a0dd44431904338cc6e30ae07c670700432889aa7b71f"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__officespace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 9123,
+      "sha256": "2521f3d544b326dc2c571d883cc583f3f544e33e0cefc313f664556ace3f0cdd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__sewagetreatment.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2547,
+      "sha256": "3d334ad7a6113851216d5b72e2d137016e4d1a6612b306201240f62c7ba555a4"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__storageyard.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3103,
+      "sha256": "96a1eef327ec4ac2ffa8be70cd52ac280e3e24992d9ac8c791b5322a43282cef"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__stormdrain.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2094,
+      "sha256": "e85c482e00b30f69de9ceada0e3a6885e9f8b2186e5cf1488a94bc41ced675e9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__sunnyvaletrailerpark.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4345,
+      "sha256": "2e077117c421e3e55930fb037abb9649d0117344fd8251934842337c16aabd2d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__thefoundation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6164,
+      "sha256": "953a0e5b506bcfc77dff461458afc51e148aca299f5376a38f3bd6c2330890cd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__thepit.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2090,
+      "sha256": "249552c09bf2438d9c153083e97e933f2b573d9a2fdc9ba89b93dea27e5ffe17"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__toxicspillway.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5597,
+      "sha256": "10abc19bd43586126fc3c734c20bbe62b91539e5a641763ce31a9b66289e174e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__trenchrun.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2468,
+      "sha256": "5fd133c83fb72213e0bb357b9d13dba3b13840b84a9e687e98120d262e6afd52"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__trenchrun2.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2005,
+      "sha256": "6884a11d907b628f601b6f05a83692f0d716724dc818029ca3502f105dec2bc6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__unstableterrace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3107,
+      "sha256": "e2504c7c1f62eeaafe161bc637f0752943615609fefa3ca80f2eca358bdf2bbc"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__workplaceanxiety.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2058,
+      "sha256": "2f2451d8f66a4e6a5da423e5d0d0e5350cadc1e58f5649cf3ae34f82ddb1b732"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/__xgenhq.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6184,
+      "sha256": "d620fff426d9719fa499a04d5d26779fed690a83f2cd52dca0431dbd38e268d1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__automateddiscoverypod.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2106,
+      "sha256": "0d33a84c7c323e2ee0277bfc53b6b127a0baec9da4a6185074a51bec4d498679"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__barge.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6680,
+      "sha256": "7932582959c679fe7f80c316621908426061f2be84e66a6e3d877b4181259d45"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__cliffside.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6460,
+      "sha256": "e4677a0c92e1139c06a91f6e82abb7669aa35fb9f9506eeab863290fcd14ba3f"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__geminicontrolstation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 11513,
+      "sha256": "ed11a4b06242e3078314e9c061fb96cfadb72862088c7d73d0bb203be5327ca8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__orbit.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5589,
+      "sha256": "dacd996bc07e63f138fb20b186cb9ab4e372bd4f6e526e328720044a2d0ac42b"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__outpost.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3798,
+      "sha256": "c43a591b471033f5cb7bd0272d3e0421df36291918df3eee9b3d1ddfa846db83"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__spaceelevatorcontrol.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4016,
+      "sha256": "0eb189858c47714879b0b78d5bb2ccccc94d0ff75406275d09cd6b63efed8685"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__spacemountain.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2461,
+      "sha256": "287be4c8a7609effd2e3e0570cd040305f20860f6980268e392d15fe9a6f1c70"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__stickfederationhq.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4930,
+      "sha256": "973afd47b1228562695aa05222abd6aa08cdd594323b594388d918947b6b1804"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__thesfvengeance.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4927,
+      "sha256": "2baba2ccf70b441cf7d76865986a17c2a2cc232e0df3dae9f047cfeb44c834a2"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/__transgalacticcomstation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3704,
+      "sha256": "2b3df116ac631470b260f77f496b36ea26424eab1ebab8e2d82d8a12fd26b6c8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/ballistick/lol",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__abandonedcity.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4346,
+      "sha256": "c6e17d2c177b5b23497b87f93d4ac1126cc1c9228ac1892259e2f0c7f6589d26"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__alientestlab.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 7020,
+      "sha256": "3ca1e95d568aa2b845f0c4f8a44c5774ced34463ee3a4d15d0d67c615a06a100"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__anarchystreets.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 8894,
+      "sha256": "7c907c161d9bfdcf9e51c5a3f758ba8c7a905e21054193ae93efc6f2c646924d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__battlegroundbase.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6624,
+      "sha256": "38104b37c2ab8038a8278708160e382b3526e6a6f7dd5e85d02057a68390f175"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__cliffs.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4982,
+      "sha256": "1a60bfb121d13364ce37d09d8fc8a7aaaef01d59f86668611f34db7440cabd53"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__cruelity.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4859,
+      "sha256": "f4152e62055dd4d4187c150630b3778d440cfda5d7ac8e8fc414d9ba6ee1f76d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__cubicles.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2410,
+      "sha256": "dda939784260547ce070a67c20afb798760e798373526db9ee41e5cffaa79ea8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__dday.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4694,
+      "sha256": "1b9596c025e62f5b8f29f554216af685d357d65185653570d2817d4947a342b6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__deadspace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4688,
+      "sha256": "a3d05376a92b654d18d300ed62efd21fdd3d3afdfb076ec5ba18f1a5fa1b5bc6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__desertlaboratory.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5426,
+      "sha256": "28823ec88d049e1e40128a67fae3ea42ffb3c09ea0ed9759cffcff9678f199f8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__elitebase.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4175,
+      "sha256": "1bda7eeec77c713ada4747c70c51932742dd428e60ad62469fbfbc02b3f91d8d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__exploration.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3704,
+      "sha256": "1ef5c5981e8906995f5fa7c10ec6b12e58c61d5c5b9c46b7019672192d2174bf"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__facility.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5802,
+      "sha256": "0c11f3a124f7da7ac7266c10dc8b2a56cc235d70028b69f9cb3f7a2841d186c8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__failcorp.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5043,
+      "sha256": "c2cf64b806d3ba188b3137b06e6f0dbe87ba862e0a90a23e0aa30619270aeab7"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__fortmoon.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4342,
+      "sha256": "25f8b1a88dccc977a694a6b8ade52d54b84769376dac0f6cd7bda35eb065da72"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__futureoffice.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3256,
+      "sha256": "19c043d161974065b4581dc243c4dcc1d836be31ae7b3d40ea72969ead8bec34"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__islandhopping.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4348,
+      "sha256": "2bd4c3d3de8435490c7bb6068c5bcd163c92ea8860e649b97e3d937fe03292fa"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__islandsofanarchy.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5028,
+      "sha256": "c6cc279b5f488dcc989df5a4c567726f78b2d6d91e579b95d0476f343322213e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__lastmap.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4690,
+      "sha256": "79ef19c1c38c73ca29e57631f21cad1e222737e42eaa63f0a9fc44587063de71"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__leetspace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4687,
+      "sha256": "a24927db4f946d6b5041c2d114c21a37a43e6570012a5f6958dcb8fc60939702"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__lostfacility.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5045,
+      "sha256": "1091a84d368ab93689e29282e0dd3363b2ad21218efca3546b8618a69a28bbb9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__lowzone.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4699,
+      "sha256": "d9542b38622dd8e2bd46e99638f33bf5c4b2698022a07991e4c1fafed93c1d4c"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__markedterritory.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3707,
+      "sha256": "c6475cf9162d87a66c0ad8dd3d95e01b34b54a319eb19b400c95a17506772cc0"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__mypetglock.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6619,
+      "sha256": "3c599909fa5a97621a1f231f9700dd1e0df0fe34aef050d4443c017b3811e021"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__oceans.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 11511,
+      "sha256": "ecb125ebdce3fd836bf0c36b8694548d6e31720f7be41ab131407914070811c1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__officepod.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3118,
+      "sha256": "3dec721aa85d4d858f4c424dc4a0a50c66ead97cb96d6cb9ba343fefcd41228e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__outerspace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5773,
+      "sha256": "3e7e792bd46eeeac91d05b0d619d80e67648fb3b94af13d8c51fbfd263a9704c"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__outerspacedestruct.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5922,
+      "sha256": "b29a43dfc9903c0e29d42018b086e416d8c3eb1f6ca9345a5ddac4a0f9ebe78a"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__parisstreets.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6616,
+      "sha256": "e6ac1840161fd624c2f2ff8cd88195dbac2ae913bf0ac8769ba9e2d8b699a622"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__radiation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4685,
+      "sha256": "1891ab1f6f4daa2438e52721f28c2f5ee71ba67c89e37efb3bd73fc4f46251ab"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__sewertunnel.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3675,
+      "sha256": "75287f59d7ea7f02c7a90ba3d4d951d348b72f88290deb2d9cb136e0da0abce6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__shelter.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4340,
+      "sha256": "6b18e6a90ea2c9befb4002c5c48f352c5d6152e7598674b18c66fdbc6e168f02"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__shipdock.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6199,
+      "sha256": "3a3778863ac0b52387f025f4c77235cfa332f18f734617be4106e2f5a74b5861"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__spacebridge.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4024,
+      "sha256": "b99461fc7d6c30f0702c8e0991f3fe25df700a096e67f7bf50b08bd9d95b7fd5"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__spaceexcavations.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6442,
+      "sha256": "b5dbc2ccee79e84796601a3c00816d91c7091ca65a0553f3a095f6221265f270"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__subterraneansector.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6208,
+      "sha256": "bdc0aa9384992baf6cb74b0c9af35920b5fd67b9dad55714b96cb597005c9db2"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__trenchspace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5048,
+      "sha256": "5a98735529516908e0c2624eab9f1ba3c3cf8e485601baa37b1e19d479fcf6fd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__underspace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6826,
+      "sha256": "195e05519e761f2c600cd83b4f21fdda26cffafd484cd74193296b4282855926"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__universityofstick.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5576,
+      "sha256": "5ef4512ecc3038154ed197f251fece595d7dffa8790ae9e61147a7720f3141c9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__venicestreets.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6617,
+      "sha256": "674c512fb8b0eb4d665ed024f11ea5c1f4f6be4a53cc00d2c4b30b3ed711c284"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/__voiders.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5410,
+      "sha256": "a4649e9b1c3860da04341241d2d0dee65b4a7640c0a779d0e5c0de3991c63d9e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/563/feature/lol",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__brawlersburrow.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2098,
+      "sha256": "7227e8b1fd72a9f5054b1dd1485b0e56d528ebea2f1009ecd94db3983a8907ed"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__concretejungle.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5038,
+      "sha256": "984131862e3cd296f5f90f779af7b1bc751540e670d6b7a5611bd8b3493b08e3"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__corporatewasteland.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3110,
+      "sha256": "1e1e833b6cb8cdcf36485b8608c15f7e01ab86b13369f84ba137ee5a7ce94954"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__floorthirteen.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 9265,
+      "sha256": "d771c5da84ad5eae31bc8aa1f9403d7c7003a9b295444b7e282a6c03326b3363"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__globalmegacorpltd.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 10389,
+      "sha256": "c8e21e17d89893b3b20094d245abf05d175b1ffd5e1a53f498af1a41d723a3ca"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__greenlabyrinth.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4338,
+      "sha256": "361226ee29cdff52870f9a7b3e883cc2a0ae8b48923d1ed805464371666a79e6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__industrialdrainage.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6470,
+      "sha256": "7ec6e62b07da7b3ae5c35a9badabc4246080570f6a02e5e1f5b0f55d773aad26"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__nuclearunderground.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 8711,
+      "sha256": "6ce28657bf1195e81b341181035c445988002f9f761e8c85042a46fbeddf58f6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__officespace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 9123,
+      "sha256": "2521f3d544b326dc2c571d883cc583f3f544e33e0cefc313f664556ace3f0cdd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__sewagetreatment.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2547,
+      "sha256": "1f1f7636558dabad67a418599fee5a144941756ea9a459f555d4772eda8a79c1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__storageyard.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3103,
+      "sha256": "96a1eef327ec4ac2ffa8be70cd52ac280e3e24992d9ac8c791b5322a43282cef"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__stormdrain.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2094,
+      "sha256": "15e2a7264d30ca8e1fa50402a81fe8b5bc151a401b853649d1b14f8c107108bd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__sunnyvaletrailerpark.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4345,
+      "sha256": "2e077117c421e3e55930fb037abb9649d0117344fd8251934842337c16aabd2d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__thefoundation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6164,
+      "sha256": "953a0e5b506bcfc77dff461458afc51e148aca299f5376a38f3bd6c2330890cd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__thepit.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2090,
+      "sha256": "249552c09bf2438d9c153083e97e933f2b573d9a2fdc9ba89b93dea27e5ffe17"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__toxicspillway.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5597,
+      "sha256": "10abc19bd43586126fc3c734c20bbe62b91539e5a641763ce31a9b66289e174e"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__trenchrun.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2462,
+      "sha256": "7adff1e0449a9e18e3ac4d05f99fc617dc5175dbf0de1ce987862fde44679071"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__unstableterrace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3107,
+      "sha256": "e2504c7c1f62eeaafe161bc637f0752943615609fefa3ca80f2eca358bdf2bbc"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__workplaceanxiety.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2058,
+      "sha256": "2f2451d8f66a4e6a5da423e5d0d0e5350cadc1e58f5649cf3ae34f82ddb1b732"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/__xgenhq.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6184,
+      "sha256": "d620fff426d9719fa499a04d5d26779fed690a83f2cd52dca0431dbd38e268d1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__automateddiscoverypod.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2106,
+      "sha256": "985328fc59510ba3a006b23e028a2aea378ca8eb3a43e29220049a5ce4433e7a"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__barge.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6680,
+      "sha256": "7932582959c679fe7f80c316621908426061f2be84e66a6e3d877b4181259d45"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__cliffside.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6460,
+      "sha256": "e4677a0c92e1139c06a91f6e82abb7669aa35fb9f9506eeab863290fcd14ba3f"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__geminicontrolstation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 11513,
+      "sha256": "52cedf89d498e5df5728abb9a31943d77158411430c09067548d8244676913f2"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__orbit.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5589,
+      "sha256": "dacd996bc07e63f138fb20b186cb9ab4e372bd4f6e526e328720044a2d0ac42b"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__outpost.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3798,
+      "sha256": "c43a591b471033f5cb7bd0272d3e0421df36291918df3eee9b3d1ddfa846db83"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__spaceelevatorcontrol.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4016,
+      "sha256": "88286c125d080d4866d5ef7e09d12cf20468f3517760ef53426e2661a0fa52a6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__spacemountain.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 2461,
+      "sha256": "287be4c8a7609effd2e3e0570cd040305f20860f6980268e392d15fe9a6f1c70"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__stickfederationhq.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4930,
+      "sha256": "68eec721d210b3334fd23fc92585c4184ab9b59b24ebbf5d126f4ca7e3798399"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__thesfvengeance.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4927,
+      "sha256": "ad72536c6432cb444c3db91fc6c6fc6d4953aebcc440479604e2e8016166d6f3"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/ballistick/__transgalacticcomstation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3704,
+      "sha256": "c4cd6c98e93e1db239c15bf43a0b33259fcc4b35766249317d4218f84b38e6d0"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__abandonedcity.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4346,
+      "sha256": "c6e17d2c177b5b23497b87f93d4ac1126cc1c9228ac1892259e2f0c7f6589d26"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__anarchystreets.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 8894,
+      "sha256": "7c907c161d9bfdcf9e51c5a3f758ba8c7a905e21054193ae93efc6f2c646924d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__cliffs.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4982,
+      "sha256": "1a60bfb121d13364ce37d09d8fc8a7aaaef01d59f86668611f34db7440cabd53"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__cruelity.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4859,
+      "sha256": "f4152e62055dd4d4187c150630b3778d440cfda5d7ac8e8fc414d9ba6ee1f76d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__dday.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4694,
+      "sha256": "1b9596c025e62f5b8f29f554216af685d357d65185653570d2817d4947a342b6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__desertlaboratory.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5426,
+      "sha256": "28823ec88d049e1e40128a67fae3ea42ffb3c09ea0ed9759cffcff9678f199f8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__elitebase.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4175,
+      "sha256": "1bda7eeec77c713ada4747c70c51932742dd428e60ad62469fbfbc02b3f91d8d"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__exploration.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3704,
+      "sha256": "1ef5c5981e8906995f5fa7c10ec6b12e58c61d5c5b9c46b7019672192d2174bf"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__facility.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5802,
+      "sha256": "0c11f3a124f7da7ac7266c10dc8b2a56cc235d70028b69f9cb3f7a2841d186c8"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__failcorp.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5043,
+      "sha256": "c2cf64b806d3ba188b3137b06e6f0dbe87ba862e0a90a23e0aa30619270aeab7"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__fortmoon.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4342,
+      "sha256": "25f8b1a88dccc977a694a6b8ade52d54b84769376dac0f6cd7bda35eb065da72"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__islandhopping.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4348,
+      "sha256": "2bd4c3d3de8435490c7bb6068c5bcd163c92ea8860e649b97e3d937fe03292fa"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__lastmap.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4690,
+      "sha256": "79ef19c1c38c73ca29e57631f21cad1e222737e42eaa63f0a9fc44587063de71"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__lostfacility.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5045,
+      "sha256": "1091a84d368ab93689e29282e0dd3363b2ad21218efca3546b8618a69a28bbb9"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__lowzone.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4699,
+      "sha256": "d9542b38622dd8e2bd46e99638f33bf5c4b2698022a07991e4c1fafed93c1d4c"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__markedterritory.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3707,
+      "sha256": "c6475cf9162d87a66c0ad8dd3d95e01b34b54a319eb19b400c95a17506772cc0"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__mypetglock.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6619,
+      "sha256": "3c599909fa5a97621a1f231f9700dd1e0df0fe34aef050d4443c017b3811e021"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__officepod.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3118,
+      "sha256": "735da73da0fd4add92564a10d02fed7dd878520072008b343e79490ca4f2a9b1"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__radiation.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4685,
+      "sha256": "1891ab1f6f4daa2438e52721f28c2f5ee71ba67c89e37efb3bd73fc4f46251ab"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__sewertunnel.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 3675,
+      "sha256": "75287f59d7ea7f02c7a90ba3d4d951d348b72f88290deb2d9cb136e0da0abce6"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__shelter.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4340,
+      "sha256": "6b18e6a90ea2c9befb4002c5c48f352c5d6152e7598674b18c66fdbc6e168f02"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__shipdock.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6199,
+      "sha256": "3a3778863ac0b52387f025f4c77235cfa332f18f734617be4106e2f5a74b5861"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__spacebridge.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 4024,
+      "sha256": "b99461fc7d6c30f0702c8e0991f3fe25df700a096e67f7bf50b08bd9d95b7fd5"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__spaceexcavations.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6442,
+      "sha256": "b5dbc2ccee79e84796601a3c00816d91c7091ca65a0553f3a095f6221265f270"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__trenchspace.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 5048,
+      "sha256": "5a98735529516908e0c2624eab9f1ba3c3cf8e485601baa37b1e19d479fcf6fd"
+    },
+    {
+      "path": "htdocs/stickarena/maps/593/feature/__venicestreets.dat",
+      "scope": "other-version",
+      "role": "map",
+      "note": "map set for another client build - NOT a 558 reference",
+      "bytes": 6617,
+      "sha256": "674c512fb8b0eb4d665ed024f11ea5c1f4f6be4a53cc00d2c4b30b3ed711c284"
+    },
+    {
+      "path": "htdocs/stickarena/stickarena/highscore.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "highscore / email verification pages",
+      "bytes": 4218,
+      "sha256": "18b72edbbca294451c8ef8b83ce61bba705f674d5a3ebd1d388c1cce2b3d7c96"
+    },
+    {
+      "path": "htdocs/stickarena/stickarena/highscoreNew.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "highscore / email verification pages",
+      "bytes": 3351,
+      "sha256": "6010adc864ceb885e3fd59745ac17dd6294101f2e52214861b6d2e5a9a16f033"
+    },
+    {
+      "path": "htdocs/stickarena/stickarena/verifyEmail.php",
+      "scope": "shared",
+      "role": "web-backend",
+      "note": "highscore / email verification pages",
+      "bytes": 2506,
+      "sha256": "9bcb6aab857b612c0534f3799163cf1bb3521ade8c4c2108680cb81eca432317"
+    },
+    {
+      "path": "htdocs/stickarena/styles/default.css",
+      "scope": "shared",
+      "role": "web-asset",
+      "note": "CSS for the PHP front end",
+      "bytes": 3472,
+      "sha256": "f910b4dcddab51d1ccf8739cfb810ab4e2453ab82cc3cb80071c71028e52dcad"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/moderators.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 1268,
+      "sha256": "5f6a27607d51e91f11b99dc49240386c412e22f4859f9d519ab269fd48c968e5"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/rules.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 907,
+      "sha256": "46266e41b9cbc81077f9c8b6cf0c85a206dd7472ccb35639ab45fc59fcb2520e"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/ballistick/faq.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 15468,
+      "sha256": "b853d308762d84695d9008d93e1a5d6826992c156cf3b4d03bcdbe7b0a0c75de"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/ballistick/features.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 3927,
+      "sha256": "2c86beb761caa8b14125235111c2d71c8a9eecc4ca32915f1faa4fef5c85806c"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/ballistick/index.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 4013,
+      "sha256": "be8a180ca58ff2c8a1f99fdc6cf1043d9fe64c04691bdc7d51d56fc25e5a5f22"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/ballistick/manage.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 3563,
+      "sha256": "b6364f961de7e311599715c946f9bae5f685a624405f9526550235efa38c731f"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/ballistick/offers.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 2201,
+      "sha256": "2a46eefe48cc47e9fc5aa975ac922b03d4d93a68993d5a8096ece91bb891e96a"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/ballistick/payment.php",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 2268,
+      "sha256": "bc3b2ed216eb1345eb3182adf7abc18c811df1c282e43dd7f271a61740cc6ebb"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/6incrediblenewweapons.gif",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 7658,
+      "sha256": "3592ae20ec9f422595b0b5970450fea1d376eaa4f234df0978a07cc5b8835671"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/biga.gif",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 1215,
+      "sha256": "a35ef1f936f4f7d3abde44293d28dbc0973ff33ce418e6aa043f128a87d42a51"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/bigq.gif",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 1286,
+      "sha256": "621812d7d2343ed89ead17e02d950cd8e3e7e00960f771b3844906152325c8fd"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/features-levels.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 99118,
+      "sha256": "aea15a2e72512b381adb40ce5c0743103e97f315c4d949aa9f1954f8616fbac7"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/features-pets.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 39270,
+      "sha256": "83ef0662c4b076993876f503313d71cea09f7c64fd421f23556067001b609efd"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/features-plus.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 93188,
+      "sha256": "513fcd9cf05edc216fd06246d0946aa9d8cd44e8aebc21f955a00d9183c900e2"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/features-spinners.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 51267,
+      "sha256": "556ccd7abd50dec301be2e6cf465437f0acfa693958ec635a3bc0f9b548b6a82"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/features-weapons.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 51660,
+      "sha256": "659aa4a5f5f3f8b939cea18ea3d8fbcc917f4fea301eefef0ef2f25ee4b4462b"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/frequentlyaskedquestions.gif",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 9171,
+      "sha256": "15cd9ef3627bdb46005c447c7d653d0edaa49be356c5f43fcfdde8eb997e4843"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/labpass-header.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 62639,
+      "sha256": "f6990116c6d1a8490fec9ae4c1d1c476e386b83496e1dbe4e8b474ac2c9f531c"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/manageaccount-button.gif",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 4900,
+      "sha256": "d9d316d2b85e2d592120b6e4350bd849dd14ab842c2fdcc197a6339ef7eed3cc"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/manageaccount.gif",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 6519,
+      "sha256": "841438f1310736b3a02bcdfce3923bd42e537133e1616284327d009bf032a1da"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/nocash-button.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 6312,
+      "sha256": "2f0c73a1b2402c103c70eb4a059254a7bd3b8f0487e2edcc5d406d426fc528ae"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/pass-2995.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 41532,
+      "sha256": "c91cd533b291af735b90226f83da7f53431c5b471d56a2319d9f88e6e928c0de"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/pass-5795.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 48813,
+      "sha256": "053bc3e97afcc08e4e982471008531ffd250068ddfdbdb9477446b69f9d930e9"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/pass-595.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 44459,
+      "sha256": "414a03e95c4bf2a5b9f80e30790757f1fcd8bea3be5af1e7ccc3b10419ab5ef8"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/pass-select.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 9066,
+      "sha256": "6ee6932f1e291f378d133b5de948ef051829c4a41f511c00ba091b05226a4895"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/pass-support.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 23482,
+      "sha256": "5403d89fc66979ec4c60a4a1f9fd5ddc849a2cd297774a560bfafef4655c3f5f"
+    },
+    {
+      "path": "htdocs/swf_filler_pages/images/pass-why.jpg",
+      "scope": "shared",
+      "role": "web-frontend",
+      "note": "placeholder pages for links embedded in the SWF",
+      "bytes": 25718,
+      "sha256": "5de7f393f30a5cdc81a09391814d60092acbfb3a83532820efc5816441954b76"
+    },
+    {
+      "path": "reference/sab558/README.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 6007,
+      "sha256": "cb069004ea103bb46764d12ca001fe02f048aa4cfa59b4b254edc999ac5a969a"
+    },
+    {
+      "path": "reference/sab558/analysis/extraction_report.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 5535,
+      "sha256": "f7c485102ec2d65e01e04292406dcd16a505647387920332693faef9d8ce6873"
+    },
+    {
+      "path": "reference/sab558/analysis/ffdec_dumpSWF.txt",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 7885305,
+      "sha256": "bce6a449998fb335fc0b950977e81506398c8c4f0678a18bb32a600f8315721c"
+    },
+    {
+      "path": "reference/sab558/analysis/repo_inventory.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 120451,
+      "sha256": "e69aa74b12be40a873dd81eb518f817328f6adcbe12133607dec8783c33a9647"
+    },
+    {
+      "path": "reference/sab558/analysis/repo_inventory.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 34472,
+      "sha256": "57006d9113ef11f66c27de92d93743066e96e07b351693c79c7d4b1bdd13a780"
+    },
+    {
+      "path": "reference/sab558/analysis/settings558b.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 51186,
+      "sha256": "36a57b6a256aafbdc016e7a46abf22e6beca708943567e936ad40587280c40f9"
+    },
+    {
+      "path": "reference/sab558/analysis/upgradevalues558.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 2747,
+      "sha256": "1497c97aa1a7e100d0b98aed77e139c66ee9410bf0bb3cf6518973512a3a6c45"
+    },
+    {
+      "path": "reference/sab558/docs/architecture.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 13432,
+      "sha256": "970e9634fdda9ba33fb83d92fdacff13012a97d927a998fc138f3fcad5deb6a8"
+    },
+    {
+      "path": "reference/sab558/docs/assets.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 9130,
+      "sha256": "71cc98bb09e18e3016be86b33237edcb1e421193efcb09004c54f5eb88bc738e"
+    },
+    {
+      "path": "reference/sab558/docs/client-sab558.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 9652,
+      "sha256": "bf62fdcd41efe18ecd34515483a9f8e775243a4fdc6a5966490fb4cb3284d8e6"
+    },
+    {
+      "path": "reference/sab558/docs/next-steps.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 4362,
+      "sha256": "985b192b3826e1c0d280d2ec84572e5170a0de62ba6083f431ed7fa8cb58fbfa"
+    },
+    {
+      "path": "reference/sab558/docs/protocol.md",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 7823,
+      "sha256": "4ab40a895f90f02986148e3f47ba4bb869c0d980d13d03ed3608156e40c02785"
+    },
+    {
+      "path": "reference/sab558/manifests/as2_strings.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 8677638,
+      "sha256": "1638d922e02830f18ab58e072e0cc7827c9510e3becc08fd4824ebe787c715a8"
+    },
+    {
+      "path": "reference/sab558/manifests/as2_strings.txt",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 323823,
+      "sha256": "c7a50c6f2659c19f25c496b36047bc1735271454b185df39ea2661d49eb9e5c7"
+    },
+    {
+      "path": "reference/sab558/manifests/characters.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 3550718,
+      "sha256": "7a137a57fea4cfcbf0e4bb3a65ca09f982097d5822347dffe95fe5fde8243eb7"
+    },
+    {
+      "path": "reference/sab558/manifests/coverage.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 98396,
+      "sha256": "95ae754f2e406c19ce7bb3a5a56b32752c91db5a2fac9600f69eb7efffe6d19a"
+    },
+    {
+      "path": "reference/sab558/manifests/export_manifest.csv",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 4696035,
+      "sha256": "eacbaf7fb858129c0243da80d6f2cadc3026587d325f2b594907a916bc3b1a97"
+    },
+    {
+      "path": "reference/sab558/manifests/export_manifest.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 20727742,
+      "sha256": "85cf5533258f75bcdf723b53958d1c021fa2df30c38966095b3d540388939c92"
+    },
+    {
+      "path": "reference/sab558/manifests/ffdec_version.txt",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 237,
+      "sha256": "2c6588701269a562ac0ee0fa57c4cf166ab4f296420686006759108cde33c0f7"
+    },
+    {
+      "path": "reference/sab558/manifests/relationships.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 1933263,
+      "sha256": "70029d2d45ea588be1d4cabadc1fbd160fc25c5e222a5f0f7cee8bcfc10c7f5b"
+    },
+    {
+      "path": "reference/sab558/manifests/summary.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 4472,
+      "sha256": "b496858855ce758ee7e2752291ecc6de0ab56f48ab8a7d9be981f905bd13908e"
+    },
+    {
+      "path": "reference/sab558/manifests/swf_header.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 2555,
+      "sha256": "7cacfd4b016589a54a7cad5e91e22b7ca00db071cc45c75395d0fcb129ee354b"
+    },
+    {
+      "path": "reference/sab558/manifests/tags.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 25404442,
+      "sha256": "5c5e73a1e9b55935fe7cc47b70500769e940ef6d67bf54d9e36d4bf98a3cfc4e"
+    },
+    {
+      "path": "reference/sab558/manifests/verification.json",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 3951,
+      "sha256": "6663627f9111079fc46bb8e657575cf92aced1eb1e6b18fee78b7a5f9a547139"
+    },
+    {
+      "path": "reference/sab558/scripts/extract_sab558.sh",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 13798,
+      "sha256": "58338c5837940eaf5230768cc174a781a37b21cea6f0e3413020d17dd09d2f56"
+    },
+    {
+      "path": "reference/sab558/scripts/inventory_repo.py",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 10664,
+      "sha256": "4457d3cf867fce4f362cf99088f16762b423d0aedba5c914075ff14f9c83f33a"
+    },
+    {
+      "path": "reference/sab558/scripts/link_exports.py",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 14286,
+      "sha256": "20271733661e36180e233214894afceefdddac21037807692f84b870a807720b"
+    },
+    {
+      "path": "reference/sab558/scripts/swf_inspect.py",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 30760,
+      "sha256": "7309335d85dd907251454458e4f1421427ef10577f2111e98e571eaf3cedb94a"
+    },
+    {
+      "path": "reference/sab558/scripts/verify_extraction.py",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 20737,
+      "sha256": "e4f422a881e9fc8738e03579a62978bfb19930f3822a348bb1c70223bf089954"
+    },
+    {
+      "path": "reference/sab558/scripts/__pycache__/inventory_repo.cpython-311.pyc",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 14549,
+      "sha256": "8d8f7df1cff1f6f56d9aeeae4d9fd9625179141923499fc1d8adc18ef5031d91"
+    },
+    {
+      "path": "reference/sab558/scripts/__pycache__/link_exports.cpython-311.pyc",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 21135,
+      "sha256": "0217cab64f8c25c8e4bdb0bc4445339f3107f869f4e2a7d7966b420a3970571c"
+    },
+    {
+      "path": "reference/sab558/scripts/__pycache__/swf_inspect.cpython-311.pyc",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 46123,
+      "sha256": "6924d2690bf218213323ceed85b4fdb709a0a651fd8fe1dd2fa629c823659835"
+    },
+    {
+      "path": "reference/sab558/scripts/__pycache__/verify_extraction.cpython-311.pyc",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 34634,
+      "sha256": "3d0e4377aa1aba6fb485b80dd33f300f6ed4564386fe6ece4c909429d1f6f740"
+    },
+    {
+      "path": "reference/sab558/source/SHA256SUMS",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 77,
+      "sha256": "cedf795a655bd4366f7812cae6d46e16de732767e0515f1e7df97b83b050e20e"
+    },
+    {
+      "path": "reference/sab558/source/SOURCE.txt",
+      "scope": "generated",
+      "role": "workspace",
+      "note": "this workspace (tools, manifests, docs)",
+      "bytes": 254,
+      "sha256": "5433175ce093e4bd6ab28347ad9b187f91838a84feb170409a8b73d2da5c6982"
+    }
+  ]
+}

@@ -1,0 +1,2587 @@
+{
+  "source_swf": "C:/Users/johnl/Github/Stick-Arena-Private-Server/htdocs/stickarena/sab558.swf",
+  "source_swf_sha256": "f86d224501c202fb11c6c681c1ebdd6c2009b27f0a4a645351ad42ebeda3302a",
+  "note": "System -> scripts / symbols / animations / sounds / settings / server handlers. Script line ranges refer to extracted/scripts/as/<script>. Symbol ids are original SWF ids.",
+  "systems": [
+    {
+      "id": "player",
+      "title": "Player construction, dimensions and animation",
+      "summary": "A player is an instance of the library symbol characterMC (id 3268), attached at runtime with attachMovie. Its body clip fqBEfG holds the stick figure and a 3-frame state timeline (idle/walk/run) whose legs sub-clip advances with speed; the arm/weapon clip gfoKHPq holds a 49-frame table of per-weapon idle/run/attack poses.",
+      "scripts": [
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "2851-2899",
+          "what": "stick() constructor: all player state and defaults"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "3845-3886",
+          "what": "addPlayer(): attachMovie('characterMC', ...) and id assignment"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6055-6172",
+          "what": "animatePlayer(): body/legs/arm state machine"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "1091-1095",
+          "what": "getTargetRotation(facing)"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "1061-1086",
+          "what": "smoothRot(): rotation interpolation"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4305-4345",
+          "what": "changePlayerWeapon() / changePlayerColor()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4497-4508",
+          "what": "updateLocalPlayerSpinnerAndPet()"
+        }
+      ],
+      "symbols": [
+        {
+          "id": 3268,
+          "role": "characterMC - player rig root (runtime-attached)",
+          "export_names": [
+            "characterMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3268_characterMC"
+        },
+        {
+          "id": 1767,
+          "role": "fqBEfG - body: 3 frames idle/walk/run",
+          "export_names": [],
+          "frames": 3,
+          "frame_labels": [
+            "idle",
+            "walk",
+            "run"
+          ],
+          "sprite_dir": "DefineSprite_1767"
+        },
+        {
+          "id": 972,
+          "role": "legs - idle legs",
+          "export_names": [],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_972"
+        },
+        {
+          "id": 2530,
+          "role": "gfoKHPq - arm/weapon clip, 49 labelled frames",
+          "export_names": [],
+          "frames": 49,
+          "frame_labels": [
+            "fistIdle",
+            "fistRunIdle",
+            "fistAttack1",
+            "fistAttack2",
+            "fistAttack3",
+            "batIdle",
+            "batRunIdle",
+            "batAttack1",
+            "knifeAttack1",
+            "swordRunIdle",
+            "swordAttack1",
+            "swordAttack2"
+          ],
+          "sprite_dir": "DefineSprite_2530"
+        },
+        {
+          "id": 3032,
+          "role": "gfyeOfn - spawn/ghost body (hidden on spawnDone)",
+          "export_names": [],
+          "frames": 21,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3032"
+        },
+        {
+          "id": 3249,
+          "role": "deathMC - death overlay",
+          "export_names": [],
+          "frames": 7,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3249"
+        },
+        {
+          "id": 3076,
+          "role": "dieMC - death animation",
+          "export_names": [],
+          "frames": 78,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3076"
+        },
+        {
+          "id": 3017,
+          "role": "soulHellMC - death soul effect",
+          "export_names": [],
+          "frames": 58,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3017"
+        },
+        {
+          "id": 3257,
+          "role": "soulHeavenMC - spawn soul effect",
+          "export_names": [],
+          "frames": 52,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3257"
+        },
+        {
+          "id": 3267,
+          "role": "textMC - name/id/ping text container",
+          "export_names": [],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3267"
+        }
+      ],
+      "animation": [
+        {
+          "label": "fistIdle",
+          "frame_in_gfoKHPq": 1,
+          "clip_character_id": 977,
+          "clip_frames": 20,
+          "clip_seconds_at_34fps": 0.588
+        },
+        {
+          "label": "fistRunIdle",
+          "frame_in_gfoKHPq": 2,
+          "clip_character_id": 1777,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "fistAttack1",
+          "frame_in_gfoKHPq": 3,
+          "clip_character_id": 1783,
+          "clip_frames": 13,
+          "clip_seconds_at_34fps": 0.382
+        },
+        {
+          "label": "fistAttack2",
+          "frame_in_gfoKHPq": 4,
+          "clip_character_id": 1787,
+          "clip_frames": 12,
+          "clip_seconds_at_34fps": 0.353
+        },
+        {
+          "label": "fistAttack3",
+          "frame_in_gfoKHPq": 5,
+          "clip_character_id": 1798,
+          "clip_frames": 14,
+          "clip_seconds_at_34fps": 0.412
+        },
+        {
+          "label": "batIdle",
+          "frame_in_gfoKHPq": 6,
+          "clip_character_id": 1809,
+          "clip_frames": 25,
+          "clip_seconds_at_34fps": 0.735
+        },
+        {
+          "label": "batRunIdle",
+          "frame_in_gfoKHPq": 7,
+          "clip_character_id": 1816,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "batAttack1",
+          "frame_in_gfoKHPq": 8,
+          "clip_character_id": 1844,
+          "clip_frames": 26,
+          "clip_seconds_at_34fps": 0.765
+        },
+        {
+          "label": "knifeAttack1",
+          "frame_in_gfoKHPq": 9,
+          "clip_character_id": 1844,
+          "clip_frames": 26,
+          "clip_seconds_at_34fps": 0.765
+        },
+        {
+          "label": "swordRunIdle",
+          "frame_in_gfoKHPq": 10,
+          "clip_character_id": 1855,
+          "clip_frames": 60,
+          "clip_seconds_at_34fps": 1.765
+        },
+        {
+          "label": "swordAttack1",
+          "frame_in_gfoKHPq": 11,
+          "clip_character_id": 1893,
+          "clip_frames": 48,
+          "clip_seconds_at_34fps": 1.412
+        },
+        {
+          "label": "swordAttack2",
+          "frame_in_gfoKHPq": 12,
+          "clip_character_id": 1922,
+          "clip_frames": 36,
+          "clip_seconds_at_34fps": 1.059
+        },
+        {
+          "label": "swordAttack3",
+          "frame_in_gfoKHPq": 13,
+          "clip_character_id": 1943,
+          "clip_frames": 36,
+          "clip_seconds_at_34fps": 1.059
+        },
+        {
+          "label": "glockIdle",
+          "frame_in_gfoKHPq": 14,
+          "clip_character_id": 1190,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "glockRunIdle",
+          "frame_in_gfoKHPq": 15,
+          "clip_character_id": 1182,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "glockAttack1",
+          "frame_in_gfoKHPq": 16,
+          "clip_character_id": 1947,
+          "clip_frames": 20,
+          "clip_seconds_at_34fps": 0.588
+        },
+        {
+          "label": "ak47Idle",
+          "frame_in_gfoKHPq": 17,
+          "clip_character_id": 1956,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "ak47RunIdle",
+          "frame_in_gfoKHPq": 18,
+          "clip_character_id": 1962,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "ak47Attack1",
+          "frame_in_gfoKHPq": 19,
+          "clip_character_id": 1968,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "ak47Attack2",
+          "frame_in_gfoKHPq": 20,
+          "clip_character_id": 1968,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "ak47Attack3",
+          "frame_in_gfoKHPq": 21,
+          "clip_character_id": 1968,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "shotgunIdle",
+          "frame_in_gfoKHPq": 22,
+          "clip_character_id": 1043,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "shotgunRunIdle",
+          "frame_in_gfoKHPq": 23,
+          "clip_character_id": 1979,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "shotgunAttack1",
+          "frame_in_gfoKHPq": 24,
+          "clip_character_id": 1984,
+          "clip_frames": 29,
+          "clip_seconds_at_34fps": 0.853
+        },
+        {
+          "label": "sledgeIdle",
+          "frame_in_gfoKHPq": 25,
+          "clip_character_id": 1997,
+          "clip_frames": 82,
+          "clip_seconds_at_34fps": 2.412
+        },
+        {
+          "label": "sledgeRunIdle",
+          "frame_in_gfoKHPq": 26,
+          "clip_character_id": 2003,
+          "clip_frames": 28,
+          "clip_seconds_at_34fps": 0.824
+        },
+        {
+          "label": "sledgeAttack1",
+          "frame_in_gfoKHPq": 27,
+          "clip_character_id": 2073,
+          "clip_frames": 75,
+          "clip_seconds_at_34fps": 2.206
+        },
+        {
+          "label": "flamethrowerIdle",
+          "frame_in_gfoKHPq": 28,
+          "clip_character_id": 2096,
+          "clip_frames": 64,
+          "clip_seconds_at_34fps": 1.882
+        },
+        {
+          "label": "flamethrowerRunIdle",
+          "frame_in_gfoKHPq": 29,
+          "clip_character_id": 2096,
+          "clip_frames": 64,
+          "clip_seconds_at_34fps": 1.882
+        },
+        {
+          "label": "flamethrowerAttack1",
+          "frame_in_gfoKHPq": 30,
+          "clip_character_id": 2150,
+          "clip_frames": 75,
+          "clip_seconds_at_34fps": 2.206
+        },
+        {
+          "label": "chaingunIdle",
+          "frame_in_gfoKHPq": 31,
+          "clip_character_id": 2181,
+          "clip_frames": 166,
+          "clip_seconds_at_34fps": 4.882
+        },
+        {
+          "label": "chaingunRunIdle",
+          "frame_in_gfoKHPq": 32,
+          "clip_character_id": 2187,
+          "clip_frames": 28,
+          "clip_seconds_at_34fps": 0.824
+        },
+        {
+          "label": "chaingunAttack1",
+          "frame_in_gfoKHPq": 33,
+          "clip_character_id": 2229,
+          "clip_frames": 45,
+          "clip_seconds_at_34fps": 1.324
+        },
+        {
+          "label": "chainSawIdle",
+          "frame_in_gfoKHPq": 34,
+          "clip_character_id": 2245,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "chainsawRunIdle",
+          "frame_in_gfoKHPq": 35,
+          "clip_character_id": 2251,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "chainsawAttack1",
+          "frame_in_gfoKHPq": 36,
+          "clip_character_id": 2268,
+          "clip_frames": 38,
+          "clip_seconds_at_34fps": 1.118
+        },
+        {
+          "label": "chainsawAttack2",
+          "frame_in_gfoKHPq": 37,
+          "clip_character_id": 2268,
+          "clip_frames": 38,
+          "clip_seconds_at_34fps": 1.118
+        },
+        {
+          "label": "chainsawAttack3",
+          "frame_in_gfoKHPq": 38,
+          "clip_character_id": 2268,
+          "clip_frames": 38,
+          "clip_seconds_at_34fps": 1.118
+        },
+        {
+          "label": "laserswordIdle",
+          "frame_in_gfoKHPq": 39,
+          "clip_character_id": 2286,
+          "clip_frames": 43,
+          "clip_seconds_at_34fps": 1.265
+        },
+        {
+          "label": "laserswordRunIdle",
+          "frame_in_gfoKHPq": 40,
+          "clip_character_id": 2299,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "laserswordAttack1",
+          "frame_in_gfoKHPq": 41,
+          "clip_character_id": 2335,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "laserswordAttack2",
+          "frame_in_gfoKHPq": 42,
+          "clip_character_id": 2359,
+          "clip_frames": 32,
+          "clip_seconds_at_34fps": 0.941
+        },
+        {
+          "label": "laserswordAttack3",
+          "frame_in_gfoKHPq": 43,
+          "clip_character_id": 2405,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "helmetIdle",
+          "frame_in_gfoKHPq": 44,
+          "clip_character_id": 2430,
+          "clip_frames": 55,
+          "clip_seconds_at_34fps": 1.618
+        },
+        {
+          "label": "helmetRunIdle",
+          "frame_in_gfoKHPq": 45,
+          "clip_character_id": 2456,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "helmetAttack1",
+          "frame_in_gfoKHPq": 46,
+          "clip_character_id": 2487,
+          "clip_frames": 26,
+          "clip_seconds_at_34fps": 0.765
+        },
+        {
+          "label": "railgunIdle",
+          "frame_in_gfoKHPq": 47,
+          "clip_character_id": 2501,
+          "clip_frames": 60,
+          "clip_seconds_at_34fps": 1.765
+        },
+        {
+          "label": "railgunRunIdle",
+          "frame_in_gfoKHPq": 48,
+          "clip_character_id": 2501,
+          "clip_frames": 60,
+          "clip_seconds_at_34fps": 1.765
+        },
+        {
+          "label": "railgunAttack1",
+          "frame_in_gfoKHPq": 49,
+          "clip_character_id": 2529,
+          "clip_frames": 68,
+          "clip_seconds_at_34fps": 2.0
+        }
+      ],
+      "constants": [
+        "playerMaxHP",
+        "spawnInvulnFrames",
+        "deadRespawnFrames",
+        "walkLegCycle",
+        "runLegCycle",
+        "walkAnimStep",
+        "runAnimStep",
+        "rotationSpeed",
+        "spawnFlickerAlphaStep"
+      ],
+      "server": [
+        "ballistickemu/src/ballistickemu/Lobby/handlers/LoginHandler.java:99-130 (name padded to 20, colour, stats)",
+        "ballistickemu/src/ballistickemu/Tools/StickPacketMaker.java:187 (getClientInfo: uid, name, colour, kills, deaths, wins, losses, rounds, pass, level)"
+      ]
+    },
+    {
+      "id": "movement-collision",
+      "title": "Movement, acceleration and tile collision",
+      "summary": "Movement is a per-frame velocity integration with acceleration toward a per-weapon max speed, friction 0.65, and an 8-way facing encoded as a 2-character string ('1'=up/left, '2'=down/right, '0'=none). Collision is not a tile solver: the client hit-tests the player against a movieclip layer that holds a tileCol<type> shape per visible tile, and reflects velocity by -0.5 on contact. The camera scrolls when the player leaves a 250..300 x 175..225 dead zone, and the world is a 13x10 tile window that is re-populated as the camera moves.",
+      "scripts": [
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "5944-6002",
+          "what": "ygsfeyb(): acceleration, diagonal normalisation, friction"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6002-6034",
+          "what": "jhzeUQ(): per-axis collision probe, velocity reflection"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6034-6055",
+          "what": "ehbdybe(): deadzone + walk/stand classification"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9286-9494",
+          "what": "stick.prototype.move(): input, facing, camera, scroll, timers"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "484-532",
+          "what": "reloadTile(): 13x10 window slot mapping and tileCol attach"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "532-699",
+          "what": "updateEarth()/updateEarthCol()/updateEarthRow(): window scrolling"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "699-736",
+          "what": "moveToCoords()"
+        }
+      ],
+      "symbols": [
+        {
+          "id": 5025,
+          "role": "tileCol0 - empty (no collision)",
+          "export_names": [
+            "tileCol0"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5025_tileCol0"
+        },
+        {
+          "id": 7475,
+          "role": "tileCol1 - full tile, 52 x 51.1",
+          "export_names": [
+            "tileCol1"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_7475_tileCol1"
+        },
+        {
+          "id": 5034,
+          "role": "tileCol3 - full tile, blocks bullets",
+          "export_names": [
+            "tileCol3"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5034_tileCol3"
+        },
+        {
+          "id": 5032,
+          "role": "tileCol4 - full tile, map border",
+          "export_names": [
+            "tileCol4"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5032_tileCol4"
+        }
+      ],
+      "tiles": {
+        "tile_cell_px": 50,
+        "editor_tile_rows": 811,
+        "tiles_per_set": {
+          "0": 149,
+          "1": 99,
+          "2": 183,
+          "3": 154,
+          "4": 199,
+          "5": 27
+        },
+        "collision_type_histogram": {
+          "0": 292,
+          "1": 1,
+          "3": 227,
+          "4": 89,
+          "5": 11,
+          "6": 99,
+          "7": 30,
+          "8": 40,
+          "9": 22
+        },
+        "collision_shapes": [
+          {
+            "collision_type": 0,
+            "character_id": 5025,
+            "width_px": 0.0,
+            "height_px": 0.0,
+            "svg": "extracted/sprites/DefineSprite_5025_tileCol0/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 1,
+            "character_id": 7475,
+            "width_px": 52.0,
+            "height_px": 51.1,
+            "svg": "extracted/sprites/DefineSprite_7475_tileCol1/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 2,
+            "character_id": 5024,
+            "width_px": 0.0,
+            "height_px": 0.0,
+            "svg": "extracted/sprites/DefineSprite_5024_tileCol2/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 3,
+            "character_id": 5034,
+            "width_px": 52.0,
+            "height_px": 52.0,
+            "svg": "extracted/sprites/DefineSprite_5034_tileCol3/1.svg",
+            "blocks_bullets": true
+          },
+          {
+            "collision_type": 4,
+            "character_id": 5032,
+            "width_px": 52.0,
+            "height_px": 52.0,
+            "svg": "extracted/sprites/DefineSprite_5032_tileCol4/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 5,
+            "character_id": 5026,
+            "width_px": 52.0,
+            "height_px": 38.5,
+            "svg": "extracted/sprites/DefineSprite_5026_tileCol5/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 6,
+            "character_id": 5031,
+            "width_px": 52.0,
+            "height_px": 26.0,
+            "svg": "extracted/sprites/DefineSprite_5031_tileCol6/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 7,
+            "character_id": 5029,
+            "width_px": 52.0,
+            "height_px": 13.5,
+            "svg": "extracted/sprites/DefineSprite_5029_tileCol7/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 8,
+            "character_id": 5030,
+            "width_px": 26.0,
+            "height_px": 26.0,
+            "svg": "extracted/sprites/DefineSprite_5030_tileCol8/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 9,
+            "character_id": 5028,
+            "width_px": 52.0,
+            "height_px": 52.0,
+            "svg": "extracted/sprites/DefineSprite_5028_tileCol9/1.svg",
+            "blocks_bullets": false
+          }
+        ],
+        "note": "Collision type is the 6th character of each 6-char tile cell in a .dat file; the client attaches 'tileCol<type>' and hit-tests it (frame_1/DoAction.as:496, reloadTile)."
+      },
+      "constants": [
+        "friction",
+        "walkAccel",
+        "maxVel",
+        "walkSpeedMultiplier",
+        "velocityDeadzone",
+        "standThreshold",
+        "collisionBounce",
+        "tilePx",
+        "tileWindowCols",
+        "tileWindowRows",
+        "cameraLeft",
+        "cameraRight",
+        "cameraTop",
+        "cameraBottom"
+      ],
+      "server": [
+        "The server does not simulate movement: GamePacketBroadcastHandler.java:30 re-broadcasts opcode 1/2/4/5/6/8 verbatim."
+      ]
+    },
+    {
+      "id": "weapons",
+      "title": "Weapons, pickups, attacks and damage",
+      "summary": "14 weapon slots (0-13) are declared in initializeWeapons() as weaponType records. Melee weapons hit-test a hit area at <=100 px; ranged weapons raycast in 10 px steps and are blocked by collision type 3. Hit resolution is victim-side: the attacker broadcasts opcode 4, every other client checks whether that attack hits its own player, and the victim applies the damage locally and broadcasts opcode 6. Map weapon spawns respawn after the map's per-spawn delay, and picking a weapon shortens spawn protection by 66.6 frames.",
+      "scripts": [
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "1823-1861",
+          "what": "initializeWeapons(): the 14-entry table"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "1841-1861",
+          "what": "weaponType(): record layout"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4098-4160",
+          "what": "qxTtuh(): range gates, hitTest probes, projectile raycast"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6172-6260",
+          "what": "updateWeaponSpawns()/spawnWeapon()/animateWeaponPickups()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9208-9264",
+          "what": "qxCsEe(): weapon switch, pickup, invuln shortening"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9230-9264",
+          "what": "qkZPDc(): attack trigger, cooldown, particles"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9264-9286",
+          "what": "autoAttack(): hold-to-fire vs click-per-shot"
+        },
+        {
+          "script": "frame_9/PlaceObject2_236_241/CLIPACTIONRECORD onClipEvent(mouseUp).as",
+          "lines": "1-4",
+          "what": "mouseUp sets zqyafO=true -> semi-auto weapons re-arm"
+        }
+      ],
+      "weapons": [
+        {
+          "id": 0,
+          "attackAnim": "fist",
+          "idleAnim": "fist",
+          "runAnim": "fistRun",
+          "bloodAnim": "",
+          "bloodVariations": 0,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 5,
+          "qxdMlq": 17,
+          "walkingSpeed": 1,
+          "variations": 3,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 3,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 561,
+          "damage_per_second": 8.91
+        },
+        {
+          "id": 1,
+          "attackAnim": "fist",
+          "idleAnim": "fist",
+          "runAnim": "fistRun",
+          "bloodAnim": "",
+          "bloodVariations": 0,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 5,
+          "qxdMlq": 17,
+          "walkingSpeed": 1,
+          "variations": 3,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 3,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 561,
+          "damage_per_second": 8.91
+        },
+        {
+          "id": 2,
+          "attackAnim": "bat",
+          "idleAnim": "bat",
+          "runAnim": "batRun",
+          "bloodAnim": "Bat",
+          "bloodVariations": 2,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 19,
+          "qxdMlq": 20,
+          "walkingSpeed": 0.9,
+          "variations": 1,
+          "deathRotation": 45,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 660,
+          "damage_per_second": 28.79
+        },
+        {
+          "id": 3,
+          "attackAnim": "sword",
+          "idleAnim": "swordRun",
+          "runAnim": "swordRun",
+          "bloodAnim": "Sword",
+          "bloodVariations": 1,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 8,
+          "qxdMlq": 12,
+          "walkingSpeed": 1,
+          "variations": 3,
+          "deathRotation": 30,
+          "attack_variants_in_animation_table": 3,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 396,
+          "damage_per_second": 20.2
+        },
+        {
+          "id": 4,
+          "attackAnim": "glock",
+          "idleAnim": "glock",
+          "runAnim": "glockRun",
+          "bloodAnim": "Bullet",
+          "bloodVariations": 3,
+          "particleAnim": true,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": true,
+          "damage": 13,
+          "qxdMlq": 18,
+          "walkingSpeed": 0.8,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 594,
+          "damage_per_second": 21.89
+        },
+        {
+          "id": 5,
+          "attackAnim": "ak47",
+          "idleAnim": "ak47",
+          "runAnim": "ak47Run",
+          "bloodAnim": "Bullet",
+          "bloodVariations": 3,
+          "particleAnim": true,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": true,
+          "damage": 11,
+          "qxdMlq": 14,
+          "walkingSpeed": 0.7,
+          "variations": 3,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 3,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 462,
+          "damage_per_second": 23.81
+        },
+        {
+          "id": 6,
+          "attackAnim": "shotgun",
+          "idleAnim": "shotgun",
+          "runAnim": "shotgunRun",
+          "bloodAnim": "Shotgun",
+          "bloodVariations": 3,
+          "particleAnim": true,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": true,
+          "damage": 20,
+          "qxdMlq": 40,
+          "walkingSpeed": 0.7,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 1320,
+          "damage_per_second": 15.15
+        },
+        {
+          "id": 7,
+          "attackAnim": "sledge",
+          "idleAnim": "sledge",
+          "runAnim": "sledgeRun",
+          "bloodAnim": "Sword",
+          "bloodVariations": 1,
+          "particleAnim": true,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 80,
+          "qxdMlq": 65,
+          "walkingSpeed": 0.7,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 2145,
+          "damage_per_second": 37.3
+        },
+        {
+          "id": 8,
+          "attackAnim": "flamethrower",
+          "idleAnim": "flamethrower",
+          "runAnim": "flamethrowerRun",
+          "bloodAnim": "",
+          "bloodVariations": 0,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": true,
+          "damage": 11,
+          "qxdMlq": 15,
+          "walkingSpeed": 0.75,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 495,
+          "damage_per_second": 22.22
+        },
+        {
+          "id": 9,
+          "attackAnim": "railgun",
+          "idleAnim": "railgun",
+          "runAnim": "railgunRun",
+          "bloodAnim": "Shotgun",
+          "bloodVariations": 3,
+          "particleAnim": true,
+          "particleAnimLow": true,
+          "automatic": true,
+          "range": true,
+          "damage": 50,
+          "qxdMlq": 80,
+          "walkingSpeed": 0.65,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 2640,
+          "damage_per_second": 18.94
+        },
+        {
+          "id": 10,
+          "attackAnim": "chainsaw",
+          "idleAnim": "chainsaw",
+          "runAnim": "chainsawRun",
+          "bloodAnim": "Sword",
+          "bloodVariations": 1,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 21,
+          "qxdMlq": 22,
+          "walkingSpeed": 0.8,
+          "variations": 3,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 3,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 726,
+          "damage_per_second": 28.93
+        },
+        {
+          "id": 11,
+          "attackAnim": "lasersword",
+          "idleAnim": "lasersword",
+          "runAnim": "laserswordRun",
+          "bloodAnim": "",
+          "bloodVariations": 0,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 10,
+          "qxdMlq": 15,
+          "walkingSpeed": 1,
+          "variations": 3,
+          "deathRotation": 30,
+          "attack_variants_in_animation_table": 3,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 495,
+          "damage_per_second": 20.2
+        },
+        {
+          "id": 12,
+          "attackAnim": "helmet",
+          "idleAnim": "helmet",
+          "runAnim": "helmetRun",
+          "bloodAnim": "",
+          "bloodVariations": 0,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": false,
+          "damage": 6,
+          "qxdMlq": 13,
+          "walkingSpeed": 0.9,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 429,
+          "damage_per_second": 13.99
+        },
+        {
+          "id": 13,
+          "attackAnim": "chaingun",
+          "idleAnim": "chaingun",
+          "runAnim": "chaingunRun",
+          "bloodAnim": "Bullet",
+          "bloodVariations": 3,
+          "particleAnim": false,
+          "particleAnimLow": false,
+          "automatic": true,
+          "range": true,
+          "damage": 9,
+          "qxdMlq": 11,
+          "walkingSpeed": 0.7,
+          "variations": 1,
+          "deathRotation": 0,
+          "attack_variants_in_animation_table": 1,
+          "variants_field_matches_table": true,
+          "cooldown_ms": 363,
+          "damage_per_second": 24.79
+        }
+      ],
+      "animation": [
+        {
+          "label": "fistIdle",
+          "frame_in_gfoKHPq": 1,
+          "clip_character_id": 977,
+          "clip_frames": 20,
+          "clip_seconds_at_34fps": 0.588
+        },
+        {
+          "label": "fistRunIdle",
+          "frame_in_gfoKHPq": 2,
+          "clip_character_id": 1777,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "fistAttack1",
+          "frame_in_gfoKHPq": 3,
+          "clip_character_id": 1783,
+          "clip_frames": 13,
+          "clip_seconds_at_34fps": 0.382
+        },
+        {
+          "label": "fistAttack2",
+          "frame_in_gfoKHPq": 4,
+          "clip_character_id": 1787,
+          "clip_frames": 12,
+          "clip_seconds_at_34fps": 0.353
+        },
+        {
+          "label": "fistAttack3",
+          "frame_in_gfoKHPq": 5,
+          "clip_character_id": 1798,
+          "clip_frames": 14,
+          "clip_seconds_at_34fps": 0.412
+        },
+        {
+          "label": "batIdle",
+          "frame_in_gfoKHPq": 6,
+          "clip_character_id": 1809,
+          "clip_frames": 25,
+          "clip_seconds_at_34fps": 0.735
+        },
+        {
+          "label": "batRunIdle",
+          "frame_in_gfoKHPq": 7,
+          "clip_character_id": 1816,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "batAttack1",
+          "frame_in_gfoKHPq": 8,
+          "clip_character_id": 1844,
+          "clip_frames": 26,
+          "clip_seconds_at_34fps": 0.765
+        },
+        {
+          "label": "knifeAttack1",
+          "frame_in_gfoKHPq": 9,
+          "clip_character_id": 1844,
+          "clip_frames": 26,
+          "clip_seconds_at_34fps": 0.765
+        },
+        {
+          "label": "swordRunIdle",
+          "frame_in_gfoKHPq": 10,
+          "clip_character_id": 1855,
+          "clip_frames": 60,
+          "clip_seconds_at_34fps": 1.765
+        },
+        {
+          "label": "swordAttack1",
+          "frame_in_gfoKHPq": 11,
+          "clip_character_id": 1893,
+          "clip_frames": 48,
+          "clip_seconds_at_34fps": 1.412
+        },
+        {
+          "label": "swordAttack2",
+          "frame_in_gfoKHPq": 12,
+          "clip_character_id": 1922,
+          "clip_frames": 36,
+          "clip_seconds_at_34fps": 1.059
+        },
+        {
+          "label": "swordAttack3",
+          "frame_in_gfoKHPq": 13,
+          "clip_character_id": 1943,
+          "clip_frames": 36,
+          "clip_seconds_at_34fps": 1.059
+        },
+        {
+          "label": "glockIdle",
+          "frame_in_gfoKHPq": 14,
+          "clip_character_id": 1190,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "glockRunIdle",
+          "frame_in_gfoKHPq": 15,
+          "clip_character_id": 1182,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "glockAttack1",
+          "frame_in_gfoKHPq": 16,
+          "clip_character_id": 1947,
+          "clip_frames": 20,
+          "clip_seconds_at_34fps": 0.588
+        },
+        {
+          "label": "ak47Idle",
+          "frame_in_gfoKHPq": 17,
+          "clip_character_id": 1956,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "ak47RunIdle",
+          "frame_in_gfoKHPq": 18,
+          "clip_character_id": 1962,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "ak47Attack1",
+          "frame_in_gfoKHPq": 19,
+          "clip_character_id": 1968,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "ak47Attack2",
+          "frame_in_gfoKHPq": 20,
+          "clip_character_id": 1968,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "ak47Attack3",
+          "frame_in_gfoKHPq": 21,
+          "clip_character_id": 1968,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "shotgunIdle",
+          "frame_in_gfoKHPq": 22,
+          "clip_character_id": 1043,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "shotgunRunIdle",
+          "frame_in_gfoKHPq": 23,
+          "clip_character_id": 1979,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "shotgunAttack1",
+          "frame_in_gfoKHPq": 24,
+          "clip_character_id": 1984,
+          "clip_frames": 29,
+          "clip_seconds_at_34fps": 0.853
+        },
+        {
+          "label": "sledgeIdle",
+          "frame_in_gfoKHPq": 25,
+          "clip_character_id": 1997,
+          "clip_frames": 82,
+          "clip_seconds_at_34fps": 2.412
+        },
+        {
+          "label": "sledgeRunIdle",
+          "frame_in_gfoKHPq": 26,
+          "clip_character_id": 2003,
+          "clip_frames": 28,
+          "clip_seconds_at_34fps": 0.824
+        },
+        {
+          "label": "sledgeAttack1",
+          "frame_in_gfoKHPq": 27,
+          "clip_character_id": 2073,
+          "clip_frames": 75,
+          "clip_seconds_at_34fps": 2.206
+        },
+        {
+          "label": "flamethrowerIdle",
+          "frame_in_gfoKHPq": 28,
+          "clip_character_id": 2096,
+          "clip_frames": 64,
+          "clip_seconds_at_34fps": 1.882
+        },
+        {
+          "label": "flamethrowerRunIdle",
+          "frame_in_gfoKHPq": 29,
+          "clip_character_id": 2096,
+          "clip_frames": 64,
+          "clip_seconds_at_34fps": 1.882
+        },
+        {
+          "label": "flamethrowerAttack1",
+          "frame_in_gfoKHPq": 30,
+          "clip_character_id": 2150,
+          "clip_frames": 75,
+          "clip_seconds_at_34fps": 2.206
+        },
+        {
+          "label": "chaingunIdle",
+          "frame_in_gfoKHPq": 31,
+          "clip_character_id": 2181,
+          "clip_frames": 166,
+          "clip_seconds_at_34fps": 4.882
+        },
+        {
+          "label": "chaingunRunIdle",
+          "frame_in_gfoKHPq": 32,
+          "clip_character_id": 2187,
+          "clip_frames": 28,
+          "clip_seconds_at_34fps": 0.824
+        },
+        {
+          "label": "chaingunAttack1",
+          "frame_in_gfoKHPq": 33,
+          "clip_character_id": 2229,
+          "clip_frames": 45,
+          "clip_seconds_at_34fps": 1.324
+        },
+        {
+          "label": "chainSawIdle",
+          "frame_in_gfoKHPq": 34,
+          "clip_character_id": 2245,
+          "clip_frames": 40,
+          "clip_seconds_at_34fps": 1.176
+        },
+        {
+          "label": "chainsawRunIdle",
+          "frame_in_gfoKHPq": 35,
+          "clip_character_id": 2251,
+          "clip_frames": 18,
+          "clip_seconds_at_34fps": 0.529
+        },
+        {
+          "label": "chainsawAttack1",
+          "frame_in_gfoKHPq": 36,
+          "clip_character_id": 2268,
+          "clip_frames": 38,
+          "clip_seconds_at_34fps": 1.118
+        },
+        {
+          "label": "chainsawAttack2",
+          "frame_in_gfoKHPq": 37,
+          "clip_character_id": 2268,
+          "clip_frames": 38,
+          "clip_seconds_at_34fps": 1.118
+        },
+        {
+          "label": "chainsawAttack3",
+          "frame_in_gfoKHPq": 38,
+          "clip_character_id": 2268,
+          "clip_frames": 38,
+          "clip_seconds_at_34fps": 1.118
+        },
+        {
+          "label": "laserswordIdle",
+          "frame_in_gfoKHPq": 39,
+          "clip_character_id": 2286,
+          "clip_frames": 43,
+          "clip_seconds_at_34fps": 1.265
+        },
+        {
+          "label": "laserswordRunIdle",
+          "frame_in_gfoKHPq": 40,
+          "clip_character_id": 2299,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "laserswordAttack1",
+          "frame_in_gfoKHPq": 41,
+          "clip_character_id": 2335,
+          "clip_frames": 24,
+          "clip_seconds_at_34fps": 0.706
+        },
+        {
+          "label": "laserswordAttack2",
+          "frame_in_gfoKHPq": 42,
+          "clip_character_id": 2359,
+          "clip_frames": 32,
+          "clip_seconds_at_34fps": 0.941
+        },
+        {
+          "label": "laserswordAttack3",
+          "frame_in_gfoKHPq": 43,
+          "clip_character_id": 2405,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "helmetIdle",
+          "frame_in_gfoKHPq": 44,
+          "clip_character_id": 2430,
+          "clip_frames": 55,
+          "clip_seconds_at_34fps": 1.618
+        },
+        {
+          "label": "helmetRunIdle",
+          "frame_in_gfoKHPq": 45,
+          "clip_character_id": 2456,
+          "clip_frames": 30,
+          "clip_seconds_at_34fps": 0.882
+        },
+        {
+          "label": "helmetAttack1",
+          "frame_in_gfoKHPq": 46,
+          "clip_character_id": 2487,
+          "clip_frames": 26,
+          "clip_seconds_at_34fps": 0.765
+        },
+        {
+          "label": "railgunIdle",
+          "frame_in_gfoKHPq": 47,
+          "clip_character_id": 2501,
+          "clip_frames": 60,
+          "clip_seconds_at_34fps": 1.765
+        },
+        {
+          "label": "railgunRunIdle",
+          "frame_in_gfoKHPq": 48,
+          "clip_character_id": 2501,
+          "clip_frames": 60,
+          "clip_seconds_at_34fps": 1.765
+        },
+        {
+          "label": "railgunAttack1",
+          "frame_in_gfoKHPq": 49,
+          "clip_character_id": 2529,
+          "clip_frames": 68,
+          "clip_seconds_at_34fps": 2.0
+        }
+      ],
+      "symbols": [
+        {
+          "id": 4343,
+          "role": "pickupswordMC",
+          "export_names": [
+            "pickupswordMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4343_pickupswordMC"
+        },
+        {
+          "id": 4344,
+          "role": "pickupsledgeMC",
+          "export_names": [
+            "pickupsledgeMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4344_pickupsledgeMC"
+        },
+        {
+          "id": 4345,
+          "role": "pickupshotgunMC",
+          "export_names": [
+            "pickupshotgunMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4345_pickupshotgunMC"
+        },
+        {
+          "id": 4348,
+          "role": "pickupglockMC",
+          "export_names": [
+            "pickupglockMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4348_pickupglockMC"
+        },
+        {
+          "id": 4350,
+          "role": "pickupfistMC",
+          "export_names": [
+            "pickupfistMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4350_pickupfistMC"
+        },
+        {
+          "id": 4351,
+          "role": "pickupbatMC",
+          "export_names": [
+            "pickupbatMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4351_pickupbatMC"
+        },
+        {
+          "id": 4352,
+          "role": "pickupak47MC",
+          "export_names": [
+            "pickupak47MC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4352_pickupak47MC"
+        },
+        {
+          "id": 6209,
+          "role": "pickupchaingunMC",
+          "export_names": [
+            "pickupchaingunMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6209_pickupchaingunMC"
+        },
+        {
+          "id": 6210,
+          "role": "pickupchainsawMC",
+          "export_names": [
+            "pickupchainsawMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6210_pickupchainsawMC"
+        },
+        {
+          "id": 6211,
+          "role": "pickupflamethrowerMC",
+          "export_names": [
+            "pickupflamethrowerMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6211_pickupflamethrowerMC"
+        },
+        {
+          "id": 6212,
+          "role": "pickuplaserswordMC",
+          "export_names": [
+            "pickuplaserswordMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6212_pickuplaserswordMC"
+        },
+        {
+          "id": 6213,
+          "role": "pickuprailgunMC",
+          "export_names": [
+            "pickuprailgunMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6213_pickuprailgunMC"
+        },
+        {
+          "id": 6214,
+          "role": "pickuphelmetMC",
+          "export_names": [
+            "pickuphelmetMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6214_pickuphelmetMC"
+        },
+        {
+          "id": 4356,
+          "role": "sledgeParticleMC",
+          "export_names": [
+            "sledgeParticleMC"
+          ],
+          "frames": 75,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4356_sledgeParticleMC"
+        },
+        {
+          "id": 4357,
+          "role": "shotgunParticleMC",
+          "export_names": [
+            "shotgunParticleMC"
+          ],
+          "frames": 22,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4357_shotgunParticleMC"
+        },
+        {
+          "id": 4358,
+          "role": "glockParticleMC",
+          "export_names": [
+            "glockParticleMC"
+          ],
+          "frames": 21,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4358_glockParticleMC"
+        },
+        {
+          "id": 4361,
+          "role": "ak47ParticleMC",
+          "export_names": [
+            "ak47ParticleMC"
+          ],
+          "frames": 15,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4361_ak47ParticleMC"
+        },
+        {
+          "id": 5652,
+          "role": "railgunParticleMC",
+          "export_names": [
+            "railgunParticleMC"
+          ],
+          "frames": 68,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5652_railgunParticleMC"
+        },
+        {
+          "id": 6402,
+          "role": "railgunParticleLowMC",
+          "export_names": [
+            "railgunParticleLowMC"
+          ],
+          "frames": 7,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6402_railgunParticleLowMC"
+        },
+        {
+          "id": 4374,
+          "role": "bloodSword0MC",
+          "export_names": [
+            "bloodSword0MC"
+          ],
+          "frames": 12,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4374_bloodSword0MC"
+        },
+        {
+          "id": 4387,
+          "role": "bloodShotgun2MC",
+          "export_names": [
+            "bloodShotgun2MC"
+          ],
+          "frames": 12,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4387_bloodShotgun2MC"
+        },
+        {
+          "id": 4414,
+          "role": "bloodBullet2MC",
+          "export_names": [
+            "bloodBullet2MC"
+          ],
+          "frames": 12,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4414_bloodBullet2MC"
+        },
+        {
+          "id": 4450,
+          "role": "bloodBat1MC",
+          "export_names": [
+            "bloodBat1MC"
+          ],
+          "frames": 12,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4450_bloodBat1MC"
+        }
+      ],
+      "sounds": [
+        {
+          "attach_sound_name": "fist00.wav",
+          "character_id": 5294,
+          "file": "sounds/5294_fist00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "fist10.wav",
+          "character_id": 5293,
+          "file": "sounds/5293_fist10.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "fist20.wav",
+          "character_id": 5292,
+          "file": "sounds/5292_fist20.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "bat00.wav",
+          "character_id": 5306,
+          "file": "sounds/5306_bat00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "sword00.wav",
+          "character_id": 5272,
+          "file": "sounds/5272_sword00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "sword10.wav",
+          "character_id": 5271,
+          "file": "sounds/5271_sword10.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "sword20.wav",
+          "character_id": 5270,
+          "file": "sounds/5270_sword20.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Glock00.wav",
+          "character_id": 5290,
+          "file": "sounds/5290_Glock00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Glock10.wav",
+          "character_id": 5289,
+          "file": "sounds/5289_Glock10.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Glock20.wav",
+          "character_id": 5288,
+          "file": "sounds/5288_Glock20.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "AK4700.wav",
+          "character_id": 5309,
+          "file": "sounds/5309_AK4700.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "AK4710.wav",
+          "character_id": 5308,
+          "file": "sounds/5308_AK4710.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "AK4720.wav",
+          "character_id": 5307,
+          "file": "sounds/5307_AK4720.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "shotgun00.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "case_mismatch_with_export_name": "Shotgun00.wav",
+          "case_mismatch_character_id": 5279
+        },
+        {
+          "attach_sound_name": "sledge00.wav",
+          "character_id": 5276,
+          "file": "sounds/5276_sledge00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "fistimp00.wav",
+          "character_id": 5291,
+          "file": "sounds/5291_fistimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Batimp00.wav",
+          "character_id": 5305,
+          "file": "sounds/5305_Batimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "swordimp00.wav",
+          "character_id": 5269,
+          "file": "sounds/5269_swordimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "glockimp00.wav",
+          "character_id": 5287,
+          "file": "sounds/5287_glockimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "ak47imp00.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "case_mismatch_with_export_name": "AK47imp00.wav",
+          "case_mismatch_character_id": 5311
+        },
+        {
+          "attach_sound_name": "shotgunimp00.wav",
+          "character_id": 5278,
+          "file": "sounds/5278_shotgunimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "sledgeimp00.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "case_mismatch_with_export_name": "Sledgeimp00.wav",
+          "case_mismatch_character_id": 5275
+        },
+        {
+          "attach_sound_name": "Spawn.wav",
+          "character_id": 5273,
+          "file": "sounds/5273_Spawn.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "ticketScratch23.wav",
+          "character_id": 7888,
+          "file": "sounds/7888_ticketScratch23.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "ticketScratch27.wav",
+          "character_id": 7887,
+          "file": "sounds/7887_ticketScratch27.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "ticketScratch28.wav",
+          "character_id": 7886,
+          "file": "sounds/7886_ticketScratch28.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "ticketPrize.wav",
+          "character_id": 7889,
+          "file": "sounds/7889_ticketPrize.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Batpick00.wav",
+          "character_id": 5304,
+          "file": "sounds/5304_Batpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Swordpick00.wav",
+          "character_id": 5268,
+          "file": "sounds/5268_Swordpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Glockpick00.wav",
+          "character_id": 5286,
+          "file": "sounds/5286_Glockpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "AK47pick00.wav",
+          "character_id": 5310,
+          "file": "sounds/5310_AK47pick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Shotgunpick00.wav",
+          "character_id": 5277,
+          "file": "sounds/5277_Shotgunpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "Sledgepick00.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "case_mismatch_with_export_name": "sledgepick00.wav",
+          "case_mismatch_character_id": 5274
+        },
+        {
+          "attach_sound_name": "kill.wav",
+          "character_id": 5284,
+          "file": "sounds/5284_kill.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "positionFirst.wav",
+          "character_id": 5281,
+          "file": "sounds/5281_positionFirst.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "positionChange.wav",
+          "character_id": 5282,
+          "file": "sounds/5282_positionChange.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNover.wav",
+          "character_id": 7881,
+          "file": "sounds/7881_BTNover.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNout.wav",
+          "character_id": 7880,
+          "file": "sounds/7880_BTNout.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNpress.wav",
+          "character_id": 7882,
+          "file": "sounds/7882_BTNpress.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNchat.wav",
+          "character_id": 5302,
+          "file": "sounds/5302_BTNchat.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNerror.wav",
+          "character_id": 5303,
+          "file": "sounds/5303_BTNerror.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNcustomize.wav",
+          "character_id": 7890,
+          "file": "sounds/7890_BTNcustomize.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "privateMessage.wav",
+          "character_id": 7879,
+          "file": "sounds/7879_privateMessage.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNeditor0.wav",
+          "character_id": 7885,
+          "file": "sounds/7885_BTNeditor0.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNeditor1.wav",
+          "character_id": 7884,
+          "file": "sounds/7884_BTNeditor1.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "BTNeditor2.wav",
+          "character_id": 7883,
+          "file": "sounds/7883_BTNeditor2.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "dragVolume.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "note": "no ExportAssets name matches this string"
+        },
+        {
+          "attach_sound_name": "SATheme.wav",
+          "character_id": 5280,
+          "file": "sounds/5280_SATheme.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "joinLobby.wav",
+          "character_id": 5285,
+          "file": "sounds/5285_joinLobby.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "win.wav",
+          "character_id": 5267,
+          "file": "sounds/5267_win.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "lose.wav",
+          "character_id": 5283,
+          "file": "sounds/5283_lose.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "flamethrower00.wav",
+          "character_id": 7906,
+          "file": "sounds/7906_flamethrower00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "railgun00.wav",
+          "character_id": 7896,
+          "file": "sounds/7896_railgun00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chainsaw00.wav",
+          "character_id": 7908,
+          "file": "sounds/7908_chainsaw00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chainsaw10.wav",
+          "character_id": 7892,
+          "file": "sounds/7892_chainsaw10.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chainsaw20.wav",
+          "character_id": 7891,
+          "file": "sounds/7891_chainsaw20.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "lasersword00.wav",
+          "character_id": 7901,
+          "file": "sounds/7901_lasersword00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "lasersword10.wav",
+          "character_id": 7900,
+          "file": "sounds/7900_lasersword10.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "lasersword20.wav",
+          "character_id": 7899,
+          "file": "sounds/7899_lasersword20.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "helmet00.wav",
+          "character_id": 7904,
+          "file": "sounds/7904_helmet00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chaingun00.wav",
+          "character_id": 7893,
+          "file": "sounds/7893_chaingun00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "flamethrowerimp00.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "note": "no ExportAssets name matches this string"
+        },
+        {
+          "attach_sound_name": "railgunimp00.wav",
+          "character_id": null,
+          "file": null,
+          "resolves": false,
+          "note": "no ExportAssets name matches this string"
+        },
+        {
+          "attach_sound_name": "chainsawimp00.wav",
+          "character_id": 7894,
+          "file": "sounds/7894_chainsawimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "laserswordimp00.wav",
+          "character_id": 7898,
+          "file": "sounds/7898_laserswordimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "helmetimp00.wav",
+          "character_id": 7903,
+          "file": "sounds/7903_helmetimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chaingunimp00.wav",
+          "character_id": 7910,
+          "file": "sounds/7910_chaingunimp00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "flamethrowerpick00.wav",
+          "character_id": 7905,
+          "file": "sounds/7905_flamethrowerpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "railgunpick00.wav",
+          "character_id": 7895,
+          "file": "sounds/7895_railgunpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chainsawpick00.wav",
+          "character_id": 7907,
+          "file": "sounds/7907_chainsawpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "laserswordpick00.wav",
+          "character_id": 7897,
+          "file": "sounds/7897_laserswordpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "helmetpick00.wav",
+          "character_id": 7902,
+          "file": "sounds/7902_helmetpick00.wav.mp3",
+          "resolves": true
+        },
+        {
+          "attach_sound_name": "chaingunpick00.wav",
+          "character_id": 7909,
+          "file": "sounds/7909_chaingunpick00.wav.mp3",
+          "resolves": true
+        }
+      ],
+      "constants": [
+        "meleeRangeSq",
+        "maxAttackRangeSq",
+        "hitProbeOffset",
+        "projectileStep",
+        "gunLength",
+        "attackCooldownMsPerUnit",
+        "weaponPickupShortensInvuln"
+      ],
+      "server": [
+        "Game/handlers/GamePacketBroadcastHandler.java:30 relays attack/damage packets",
+        "Game/handlers/KillHandler.java handles opcode 7 (kill confirmation)",
+        "Lobby/handlers/BuyItemRequestHandler.java + Types/StickShop.java own shop items, not in-match weapons"
+      ]
+    },
+    {
+      "id": "maps",
+      "title": "Maps, tile sets and map objects",
+      "summary": "A map is a plain-text record file: inf=<cols> <rows> <name>, a grid of 6-character tile cells (graphic id, rotation, mirror, collision type), 8 player spawns, 8 weapon spawns (x, y, weapon id, delay) and a tile set index. The editor serialises exactly this format in generateMapString(). Stock maps come from maps/558/<name>; custom maps come from api.php.",
+      "scripts": [
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6308-6390",
+          "what": "loadStockOrCustomArea()/loadCustomArea()/loadStockArea()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6390-6474",
+          "what": "loadArea(): metadata, tile grid, spawns, round time, tile set"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "6474-6491",
+          "what": "unloadArea()"
+        },
+        {
+          "script": "frame_6/DoAction.as",
+          "lines": "223-269",
+          "what": "generateMapString(): exact .dat serialiser"
+        },
+        {
+          "script": "frame_6/DoAction.as",
+          "lines": "181-223",
+          "what": "performSaveEditor(): api.php maps.save"
+        },
+        {
+          "script": "frame_6/DoAction.as",
+          "lines": "432-624",
+          "what": "pressNewMapOK(): width/height/theme validation"
+        }
+      ],
+      "tiles": {
+        "tile_cell_px": 50,
+        "editor_tile_rows": 811,
+        "tiles_per_set": {
+          "0": 149,
+          "1": 99,
+          "2": 183,
+          "3": 154,
+          "4": 199,
+          "5": 27
+        },
+        "collision_type_histogram": {
+          "0": 292,
+          "1": 1,
+          "3": 227,
+          "4": 89,
+          "5": 11,
+          "6": 99,
+          "7": 30,
+          "8": 40,
+          "9": 22
+        },
+        "collision_shapes": [
+          {
+            "collision_type": 0,
+            "character_id": 5025,
+            "width_px": 0.0,
+            "height_px": 0.0,
+            "svg": "extracted/sprites/DefineSprite_5025_tileCol0/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 1,
+            "character_id": 7475,
+            "width_px": 52.0,
+            "height_px": 51.1,
+            "svg": "extracted/sprites/DefineSprite_7475_tileCol1/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 2,
+            "character_id": 5024,
+            "width_px": 0.0,
+            "height_px": 0.0,
+            "svg": "extracted/sprites/DefineSprite_5024_tileCol2/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 3,
+            "character_id": 5034,
+            "width_px": 52.0,
+            "height_px": 52.0,
+            "svg": "extracted/sprites/DefineSprite_5034_tileCol3/1.svg",
+            "blocks_bullets": true
+          },
+          {
+            "collision_type": 4,
+            "character_id": 5032,
+            "width_px": 52.0,
+            "height_px": 52.0,
+            "svg": "extracted/sprites/DefineSprite_5032_tileCol4/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 5,
+            "character_id": 5026,
+            "width_px": 52.0,
+            "height_px": 38.5,
+            "svg": "extracted/sprites/DefineSprite_5026_tileCol5/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 6,
+            "character_id": 5031,
+            "width_px": 52.0,
+            "height_px": 26.0,
+            "svg": "extracted/sprites/DefineSprite_5031_tileCol6/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 7,
+            "character_id": 5029,
+            "width_px": 52.0,
+            "height_px": 13.5,
+            "svg": "extracted/sprites/DefineSprite_5029_tileCol7/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 8,
+            "character_id": 5030,
+            "width_px": 26.0,
+            "height_px": 26.0,
+            "svg": "extracted/sprites/DefineSprite_5030_tileCol8/1.svg",
+            "blocks_bullets": false
+          },
+          {
+            "collision_type": 9,
+            "character_id": 5028,
+            "width_px": 52.0,
+            "height_px": 52.0,
+            "svg": "extracted/sprites/DefineSprite_5028_tileCol9/1.svg",
+            "blocks_bullets": false
+          }
+        ],
+        "note": "Collision type is the 6th character of each 6-char tile cell in a .dat file; the client attaches 'tileCol<type>' and hit-tests it (frame_1/DoAction.as:496, reloadTile)."
+      },
+      "symbols": [
+        {
+          "id": 5754,
+          "role": "tile3A6 - example set-3 tile graphic",
+          "export_names": [
+            "tile3A6"
+          ],
+          "frames": 22,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5754_tile3A6"
+        },
+        {
+          "id": 4139,
+          "role": "tile2K1 - example set-2 tile graphic",
+          "export_names": [
+            "tile2K1"
+          ],
+          "frames": 20,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_4139_tile2K1"
+        },
+        {
+          "id": 3399,
+          "role": "parallaxBG4 - background used when tileSet >= 4",
+          "export_names": [
+            "parallaxBG4"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_3399_parallaxBG4"
+        },
+        {
+          "id": 6243,
+          "role": "tileSetsMC - editor tile palette",
+          "export_names": [
+            "tileSetsMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6243_tileSetsMC"
+        }
+      ],
+      "constants": [
+        "tilePx"
+      ],
+      "server": [
+        "htdocs/stickarena/api.php: method=xgen.stickarena.maps.list/get/save (table `maps`)",
+        "Lobby/handlers/MapCycleRequestHandler.java, Game/handlers/SetMapCycleListHandler.java",
+        "Game/handlers/MapRatingHandler.java (opcode 0i)",
+        "Types/StickRoom.java:45-62 (MapID, CycleMode, MapCycleList, RoundTime)"
+      ]
+    },
+    {
+      "id": "health-death-scoring",
+      "title": "Health, death, respawn and scoring",
+      "summary": "Each player has 60 HP. Damage is an integer subtraction with a HP-bar mask animation; at <=0 the player enters 'dead', plays deathFX, increments deaths, and auto-respawns after 150 frames at a random map spawn point with 133.3 frames of invulnerability. Kills and deaths are packed into two integers (score*13+11 and deaths*11+13) so the client can ship them as compact decimals. Round end awards wins/losses by leaderboard position.",
+      "scripts": [
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9074-9127",
+          "what": "stick.prototype.damage()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9127-9159",
+          "what": "tqkYQT(): death transition"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9159-9201",
+          "what": "stick.prototype.spawn()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "9047-9074",
+          "what": "addToScore/getScore/addToDeaths/getDeaths/updateHPBar"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "5838-5859",
+          "what": "getPosition(): leaderboard ranking"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "5058-5090",
+          "what": "vzvxUc(): kill broadcast handling"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "7000-7049",
+          "what": "endRound(): wins/losses, summary"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "7049-7091",
+          "what": "startNextRound(): map cycle rotation, round time"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "3104-3138",
+          "what": "updateRoundTimer()"
+        }
+      ],
+      "symbols": [
+        {
+          "id": 5037,
+          "role": "deathFX - local death effect",
+          "export_names": [
+            "deathFX"
+          ],
+          "frames": 3,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5037_deathFX"
+        },
+        {
+          "id": 5036,
+          "role": "remoteDeathFX - remote death effect",
+          "export_names": [
+            "remoteDeathFX"
+          ],
+          "frames": 3,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5036_remoteDeathFX"
+        },
+        {
+          "id": 5039,
+          "role": "spawnFX - local spawn effect",
+          "export_names": [
+            "spawnFX"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5039_spawnFX"
+        },
+        {
+          "id": 5038,
+          "role": "remoteSpawnFX - remote spawn effect",
+          "export_names": [
+            "remoteSpawnFX"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5038_remoteSpawnFX"
+        }
+      ],
+      "constants": [
+        "playerMaxHP",
+        "deadRespawnFrames",
+        "spawnInvulnFrames",
+        "scorePackingBase",
+        "deathPackingBase",
+        "roundSummarySeconds",
+        "roundAdSeconds",
+        "serverRoundTimeOffset"
+      ],
+      "server": [
+        "Types/StickRoom.java:256-266 (1 s round timer, RoundTime 300, reset at -30)",
+        "Types/StickRoom.java:288-330 (getWinner by most kills)",
+        "Game/handlers/KillHandler.java (opcode 7)",
+        "htdocs/stickarena/stick_arena.php action=round_stats (kills/deaths/rounds/wins/losses)"
+      ]
+    },
+    {
+      "id": "multiplayer-sync",
+      "title": "Multiplayer synchronisation",
+      "summary": "The socket carries null-terminated text. The client sends opcode 1 (position/state) at most every minSendTime ms, plus event packets 4/5/6/7/8; the server relays them to the room. Remote players are reconstructed by re-running the same movement integrator for ping/33+3 frames from the last packet, then lerping with remoteSmoothing=8. The server is a relay, not an authority: it never simulates movement, damage or hits.",
+      "scripts": [
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "8942-9030",
+          "what": "stick.prototype.send*: every outbound packet"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4824-4914",
+          "what": "socketCalls(): inbound M-packet dispatch"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4345-4419",
+          "what": "updatePlayer(): remote state + prediction"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4453-4491",
+          "what": "remotePlayerPrediction()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "3775-3803",
+          "what": "updateGameState(): U packet decode"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "8809-8925",
+          "what": "XMLSocket.prototype.onData: first-char dispatch"
+        },
+        {
+          "script": "frame_9/PlaceObject2_236_241/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+          "lines": "1-3",
+          "what": "the per-frame tick: _parent.onFrame('main')"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "2927-2967",
+          "what": "onFrame(): send cadence, move, autoAttack"
+        }
+      ],
+      "constants": [
+        "userIDLength",
+        "positionScale",
+        "velocityScale",
+        "remotePredictionOffsetFrames",
+        "friction"
+      ],
+      "settings": [
+        "sMinSendTime",
+        "sMinSendTimeCompat",
+        "sKeepAliveTime",
+        "sPingAvgPeriod",
+        "sRemoteSmoothing",
+        "sRemoteRotSmoothing",
+        "sMaxMsgLen",
+        "sMaxMsgLenLobby"
+      ],
+      "server": [
+        "Tools/StickNetworkHandler.java:58-96 (null-delimited text, lobby/game split)",
+        "Game/PacketHandlerGame.java:116-120 (relay of 1/2/4/5/6/8)",
+        "Tools/StickPacketMaker.java:122-130 (getBroadcastPacket)"
+      ]
+    },
+    {
+      "id": "lobby-ui-social",
+      "title": "Lobby, UI and social features",
+      "summary": "The lobby is main-timeline frame 3 (lobbyFrame) with room list, user list, chat, private messages, VIP list and create/join dialogs. Chat is filtered by com/languagefilter.ini, length-limited and rate-limited per sender. Social systems include ignore list, find-player, vote kick, moderator warn/ban/global message, and a highscore link.",
+      "scripts": [
+        {
+          "script": "frame_3/DoAction.as",
+          "lines": "1-53",
+          "what": "lobbyInitializeComponents()"
+        },
+        {
+          "script": "frame_3/DoAction.as",
+          "lines": "132-268",
+          "what": "lobbySelectArena()/lobbyDisplayRoomDetail()"
+        },
+        {
+          "script": "frame_3/DoAction.as",
+          "lines": "382-449",
+          "what": "VIP list add/remove"
+        },
+        {
+          "script": "frame_3/DoAction.as",
+          "lines": "745-808",
+          "what": "pressCreateGameOK(): room creation and map-cycle options"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "4935-5037",
+          "what": "remoteChatMsg()/remoteChatMsgLobby(): ignore, filter, limits"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "5810-5834",
+          "what": "sendPrivateMessage()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "5037-5058",
+          "what": "vwPzUs(): vote-kick tally"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "7995-8038",
+          "what": "ignoreUser()"
+        },
+        {
+          "script": "frame_1/DoAction.as",
+          "lines": "7655-7995",
+          "what": "processSlashSyntaxCommand()"
+        }
+      ],
+      "symbols": [
+        {
+          "id": 5179,
+          "role": "window304JoinPrivateMessageMC",
+          "export_names": [
+            "window304JoinPrivateMessageMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5179_window304JoinPrivateMessageMC"
+        },
+        {
+          "id": 5182,
+          "role": "window304CreateGameMessageMC",
+          "export_names": [
+            "window304CreateGameMessageMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_5182_window304CreateGameMessageMC"
+        },
+        {
+          "id": 6651,
+          "role": "roomBallistickLobbyMC",
+          "export_names": [
+            "roomBallistickLobbyMC"
+          ],
+          "frames": 16,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6651_roomBallistickLobbyMC"
+        },
+        {
+          "id": 6652,
+          "role": "roomNormalLobbyMC",
+          "export_names": [
+            "roomNormalLobbyMC"
+          ],
+          "frames": 1,
+          "frame_labels": [],
+          "sprite_dir": "DefineSprite_6652_roomNormalLobbyMC"
+        }
+      ],
+      "settings": [
+        "sMaxMsgLen",
+        "sMaxMsgLenLobby",
+        "sMaxLobbyMsgs",
+        "sMinChatSendMS",
+        "sVoteKickDisplayTime",
+        "sVoteKickDisabledTime",
+        "sMaxNumPlayersLobby"
+      ],
+      "server": [
+        "Lobby/PacketHandlerLobby.java (0x opcode table)",
+        "Lobby/handlers/GeneralChatHandler.java",
+        "Lobby/handlers/FindRequestHandler.java, ModWarnHandler.java, ModBanHandler.java, ModBanNameHandler.java, ModGlobalHandler.java",
+        "Game/handlers/VoteKickHandler.java, Types/StickRoom.java:225-243 (kick tally)",
+        "htdocs/stickarena/stickarena/highscore.php"
+      ]
+    }
+  ]
+}

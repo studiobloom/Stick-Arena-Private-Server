@@ -1,0 +1,8 @@
+{
+  "scenario": "collision",
+  "position_packets": 221,
+  "velocity_sign_flips": 37,
+  "min_x": 69.4,
+  "max_x": 350.0,
+  "max_abs_xv": 4.942
+}

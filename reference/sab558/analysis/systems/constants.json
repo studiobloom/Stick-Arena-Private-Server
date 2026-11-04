@@ -1,0 +1,416 @@
+{
+  "note": "Every entry was re-read from the cited source line by the builder.",
+  "client_settings": {
+    "nMaxVIPListLength": "6",
+    "nNumClassicMaps": "20",
+    "nNumClassicMapsCompat": "15",
+    "nPassExpiryDialogueThreshhold": "7",
+    "sAdTime": "20",
+    "sAdminMsgHtml": ". . : : : Admin Message : : : . .",
+    "sAdminMsgText": ". . : : : Admin Message : : : . .",
+    "sCollisionCheckGhost": "1",
+    "sDisplayPlayerID": "0",
+    "sEditorMaxTilesHigh": "40",
+    "sEditorMaxTilesWide": "40",
+    "sEditorMinTilesHigh": "11",
+    "sEditorMinTilesWide": "15",
+    "sEditorText0": "MAP EDITOR",
+    "sEditorText1": "CREATE NEW MAP",
+    "sEditorText10": "SKY ISLANDS",
+    "sEditorText11": "Your MAP NAME must be at least 3 characters.",
+    "sEditorText12": "Your MAP NAME contains foul or disallowed language.",
+    "sEditorText13": "Select a Tile:",
+    "sEditorText14": "View (T)iles",
+    "sEditorText15": "Place an (O)bject",
+    "sEditorText16": "Drag Map (SPACEBAR)",
+    "sEditorText17": "(P)aintbrush",
+    "sEditorText18": "(E)ye Dropper",
+    "sEditorText19": "(R)otate Tile",
+    "sEditorText2": "LOAD MAP",
+    "sEditorText20": "Flip (H)orizontal",
+    "sEditorText21": "Flip (V)ertical",
+    "sEditorText22": "(S)ave Map",
+    "sEditorText23": "",
+    "sEditorText24": "Exit Map Editor",
+    "sEditorText25": "Help",
+    "sEditorText26": "Edit (W)eapon and Player Spawns",
+    "sEditorText27": "Edit (M)ap Tiles",
+    "sEditorText28": "Delete Tile or Spawn Point (X)",
+    "sEditorText29": "Place Baseball Bat Spawn",
+    "sEditorText3": "MAP NAME:",
+    "sEditorText30": "Place Katana Spawn",
+    "sEditorText31": "Place Glock Spawn",
+    "sEditorText32": "Place AK-47 Spawn",
+    "sEditorText33": "Place Shotgun Spawn",
+    "sEditorText34": "Place Sledgehammer Spawn",
+    "sEditorText35": "Place Flame Thrower Spawn",
+    "sEditorText36": "Place Railgun Spawn",
+    "sEditorText37": "Place Chainsaw Spawn",
+    "sEditorText38": "Place Laser Sword Spawn",
+    "sEditorText39": "Place Tesla Helm Spawn",
+    "sEditorText4": "MAP THEME:",
+    "sEditorText40": "Place Chain Gun Spawn",
+    "sEditorText41": "Place Player Spawn",
+    "sEditorText42": "MAP EDITOR HELP",
+    "sEditorText43": "Welcome to the Stick Arena Map Editor!",
+    "sEditorText44": "Map Name -- Your map name must be at least 3 characters long and must not be offensive or inappropriate.",
+    "sEditorText45": "Select a map from the list below to continue.  Note that you cannot load an empty map slot - return to the Map Editor Menu and select 'New Map' to use an empty map slot.",
+    "sEditorText46": "Toggle Tiles/Spawns Button (Hotkey: M/W) -- This gold button switches your toolbar between the tile editing and weapons/spawns placement mode.",
+    "sEditorText47": "Save your map before exiting the editor?",
+    "sEditorText48": "Loading...",
+    "sEditorText49": "(EMPTY)",
+    "sEditorText5": "MAP SIZE:",
+    "sEditorText50": "This map slot is empty.  Please select a saved map, or return to the Map Editor Menu and select 'New Map'.",
+    "sEditorText51": "You have no saved maps to load.",
+    "sEditorText52": "Save Map",
+    "sEditorText53": "Select a map slot from the list below to continue.",
+    "sEditorText54": "You have no map slots to save to.",
+    "sEditorText55": "Saving...",
+    "sEditorText56": "You have chosen to save over an exising map.  If you press 'ok', your map will be saved to this slot and the existing map will be overwritten (this cannot be undone).  Additionally, votes for the existing map will be reset to zero.",
+    "sEditorText57": "You have been disconnected from the server.  This may be due to a connectivity issue, or long period of inactivity.",
+    "sEditorText58": "You were disconnected from the server while using the Map Editor - Any changes which were successfully saved will not be lost.  Please log in again.",
+    "sEditorText59": "Unable to Load Maps",
+    "sEditorText6": "OFFICE HQ",
+    "sEditorText60": "Wrong size, homefries.       (Map is too big or too small)",
+    "sEditorText61": "There was a problem saving your map to the server - please check your internet connection and try again.",
+    "sEditorText62": "Before you can save, your map must include at least one player spawn point.  Please use the spawn toolbar to add a player spawn point.",
+    "sEditorText63": "You have no map slots to save to - you can create a new map, but you will be unable to save without purchasing a map slot from the Shop area first (Note that you cannot purchase a map slot from within the Map Editor - exit the editor and click the 'Shop' tab to purchase a map slot).",
+    "sEditorText64": "your",
+    "sEditorText65": "'s maps:",
+    "sEditorText66": "(player name)",
+    "sEditorText67": "load another player's maps:",
+    "sEditorText68": "load stock map:",
+    "sEditorText69": "Unable to load the specified player's map list.  It is possible that this player does not have any custom maps yet, or that the player's name was entered incorrectly.  Please check the player name for accuracy and try again.",
+    "sEditorText7": "CONSTRUCTION ZONE",
+    "sEditorText70": "You may only use Letters, Numbers, Periods and Commas in your MAP NAME.",
+    "sEditorText8": "THE UNDERGROUND",
+    "sEditorText9": "THE VOID",
+    "sEnforceConnection": "1",
+    "sEnforcePerformance": "1",
+    "sKeepAliveTime": "3000",
+    "sMaxArenaLen": "20",
+    "sMaxMsgLen": "45",
+    "sMaxMsgLenLobby": "135",
+    "sMaxNumPlayers": "6",
+    "sMaxNumPlayersLobby": "1024",
+    "sMaxNumPlayersNoPass": "4",
+    "sMaxPing": "275",
+    "sMaxPingCompat": "800",
+    "sMinChatSendMS": "3000",
+    "sMinFPS": "12",
+    "sMinFPSCompat": "12",
+    "sMinSendTime": "65",
+    "sMinSendTimeCompat": "130",
+    "sOptionBlood": "1",
+    "sOptionCrosshair": "0",
+    "sOptionLanguageFilter": "1",
+    "sOptionParticles": "1",
+    "sOptionQuality": "0",
+    "sOptionUseBitmapCaching": "1",
+    "sPingAvgPeriod": "10",
+    "sPingTestTimeout": "4000",
+    "sPingingText": "Pinging Servers...",
+    "sPlayerAcc": "3",
+    "sPlayerAccCompat": "2",
+    "sPlayerMaxVel": "9",
+    "sPlayerMaxVelCompat": "6",
+    "sRemoteRotSmoothing": "4",
+    "sRemoteSmoothing": "8",
+    "sRoundTime": "300",
+    "sScrollSpeed": "6",
+    "sScrollSpeedCompat": "1",
+    "sServerTimeout": "10000",
+    "sServerTimeoutCompat": "5000",
+    "sSummaryText0": "FINAL SCORE",
+    "sSummaryText1": "GAME WILL CONTINUE IN",
+    "sSummaryText2": "...",
+    "sSummaryText3": "YOU ACHIEVED RANK",
+    "sSummaryText4": "!",
+    "sSummaryText5": "Did you like this map?",
+    "sSummaryText6": "Map Rated!",
+    "sSummaryText7": "Kills",
+    "sSummaryText8": "Deaths",
+    "sSummaryTime": "11",
+    "sVoteKickDisabledTime": "20000",
+    "sVoteKickDisplayTime": "10000",
+    "sVoteKickText0": "You have initiated a Vote Kick against",
+    "sVoteKickText1": "A Vote Kick has been initiated against",
+    "sVoteKickText2": "(Vote FOR kicking this user by clicking the red X on your leader board).",
+    "sVoteKickText3": "You have been Vote Kicked."
+  },
+  "code_constants": [
+    {
+      "name": "friction",
+      "value": 0.65,
+      "unit": "velocity multiplier per frame",
+      "source": "frame_1/DoAction.as:8502",
+      "source_text": "var friction = 0.65;"
+    },
+    {
+      "name": "walkAccel",
+      "value": 3,
+      "unit": "px/frame^2 (player.lqkTiW, from sPlayerAcc)",
+      "source": "frame_1/DoAction.as:2874",
+      "source_text": "this.lqkTiW = 3;"
+    },
+    {
+      "name": "maxVel",
+      "value": 9,
+      "unit": "px/frame (player.maxVel, from sPlayerMaxVel)",
+      "source": "frame_1/DoAction.as:2875",
+      "source_text": "this.maxVel = 9;"
+    },
+    {
+      "name": "walkSpeedMultiplier",
+      "value": 0.7,
+      "unit": "W-key multiplier (player.qkKZwi)",
+      "source": "frame_1/DoAction.as:2876",
+      "source_text": "this.qkKZwi = 0.7;"
+    },
+    {
+      "name": "rotationSpeed",
+      "value": 1.5,
+      "unit": "smoothRot divisor (player.rotVel)",
+      "source": "frame_1/DoAction.as:2877",
+      "source_text": "this.rotVel = 1.5;"
+    },
+    {
+      "name": "playerMaxHP",
+      "value": 60,
+      "unit": "vwcSqZ / qxCihK",
+      "source": "frame_1/DoAction.as:2864",
+      "source_text": "this.vwcSqZ = this.qxCihK = 60;"
+    },
+    {
+      "name": "deadRespawnFrames",
+      "value": 150,
+      "unit": "kkPTHf / kkEEBi, 1 per frame",
+      "source": "frame_1/DoAction.as:2886",
+      "source_text": "this.kkEEBi = this.kkPTHf = 150;"
+    },
+    {
+      "name": "spawnInvulnFrames",
+      "value": 133.3,
+      "unit": "zqbcal / lqmKIZ, 1 per frame",
+      "source": "frame_1/DoAction.as:2887",
+      "source_text": "this.lqmKIZ = this.zqbcal = 133.3;"
+    },
+    {
+      "name": "weaponPickupShortensInvuln",
+      "value": 66.6,
+      "unit": "zqbcal -= 66.6 on pickup",
+      "source": "frame_1/DoAction.as:9212",
+      "source_text": "this.zqbcal -= 66.6;"
+    },
+    {
+      "name": "meleeRangeSq",
+      "value": 10000,
+      "unit": "distance^2 gate for non-ranged weapons",
+      "source": "frame_1/DoAction.as:4119",
+      "source_text": "if(weapons[w].range || distance < 10000)"
+    },
+    {
+      "name": "maxAttackRangeSq",
+      "value": 250000,
+      "unit": "distance^2 gate for any hit",
+      "source": "frame_1/DoAction.as:4117",
+      "source_text": "if(distance < 250000)"
+    },
+    {
+      "name": "hitProbeOffset",
+      "value": 6,
+      "unit": "px, hitTest probe at +/-6",
+      "source": "frame_1/DoAction.as:4121",
+      "source_text": "if(gfoKHPq.gxfpoCYV.fqgFvkCAnev.hitTest(xx,yy,true) || gfoKHPq.gxfpoCYV.fqgFvkCAnev.hitTest(xx - 6,yy - 6,true) || gfoKHPq.gxfpoCYV.fqgFvkCAnev.hitTest(xx - 6,yy + 6,true) || gfoKHPq.gxfpoCYV.fqgFvkCAnev.hitTest(xx + 6,yy - 6,true) || gfoKHPq.gxfpoCYV.fqgFvkCAnev.hitTest(xx + 6,yy + 6,true))"
+    },
+    {
+      "name": "projectileStep",
+      "value": 10,
+      "unit": "px per raycast step",
+      "source": "frame_1/DoAction.as:4128",
+      "source_text": "var hitDistance = resolution = 10;"
+    },
+    {
+      "name": "gunLength",
+      "value": 30,
+      "unit": "px, raycast starts at attacker + 30",
+      "source": "frame_1/DoAction.as:4129",
+      "source_text": "var gunLength = 30;"
+    },
+    {
+      "name": "attackCooldownMsPerUnit",
+      "value": 33,
+      "unit": "kkwrFk = qxdMlq * 33",
+      "source": "frame_1/DoAction.as:9250",
+      "source_text": "this.kkwrFk = weapons[this.qkUfJI].qxdMlq * 33;"
+    },
+    {
+      "name": "tilePx",
+      "value": 50,
+      "unit": "tile cell size",
+      "source": "frame_1/DoAction.as:4134",
+      "source_text": "xTileHit = int((xHit - xqXvQHh._x) / 50 + 0.5);"
+    },
+    {
+      "name": "tileWindowCols",
+      "value": 13,
+      "unit": "reloadTile modulo",
+      "source": "frame_1/DoAction.as:487",
+      "source_text": "while(tX > 12)"
+    },
+    {
+      "name": "tileWindowRows",
+      "value": 10,
+      "unit": "reloadTile modulo",
+      "source": "frame_1/DoAction.as:492",
+      "source_text": "while(tY > 9)"
+    },
+    {
+      "name": "cameraLeft",
+      "value": 250,
+      "unit": "scroll when player x < 250 (zqZLsy)",
+      "source": "frame_1/DoAction.as:2894",
+      "source_text": "this.zqZLsy = 250;"
+    },
+    {
+      "name": "cameraRight",
+      "value": 300,
+      "unit": "scroll when player x > 300 (kkjecK)",
+      "source": "frame_1/DoAction.as:2895",
+      "source_text": "this.kkjecK = 300;"
+    },
+    {
+      "name": "cameraTop",
+      "value": 175,
+      "unit": "scroll when player y < 175 (qxOLFJ)",
+      "source": "frame_1/DoAction.as:2896",
+      "source_text": "this.qxOLFJ = 175;"
+    },
+    {
+      "name": "cameraBottom",
+      "value": 225,
+      "unit": "scroll when player y > 225 (lqbwJm)",
+      "source": "frame_1/DoAction.as:2897",
+      "source_text": "this.lqbwJm = 225;"
+    },
+    {
+      "name": "velocityDeadzone",
+      "value": 0.2,
+      "unit": "|v| below this snaps to 0",
+      "source": "frame_1/DoAction.as:6036",
+      "source_text": "if(Math.abs(xVel) < 0.2)"
+    },
+    {
+      "name": "standThreshold",
+      "value": 0.8,
+      "unit": "|v| below this -> stand",
+      "source": "frame_1/DoAction.as:6045",
+      "source_text": "if(vel < 0.8)"
+    },
+    {
+      "name": "collisionBounce",
+      "value": -0.5,
+      "unit": "velocity multiplier on hit",
+      "source": "frame_1/DoAction.as:6008",
+      "source_text": "xVel *= -0.5;"
+    },
+    {
+      "name": "walkLegCycle",
+      "value": 40,
+      "unit": "legs frames while walking",
+      "source": "frame_1/DoAction.as:6071",
+      "source_text": "if(int(f) > 40)"
+    },
+    {
+      "name": "runLegCycle",
+      "value": 18,
+      "unit": "legs frames while running",
+      "source": "frame_1/DoAction.as:6094",
+      "source_text": "if(int(f) > 18)"
+    },
+    {
+      "name": "walkAnimStep",
+      "value": 3.5,
+      "unit": "f += vel / 3.5",
+      "source": "frame_1/DoAction.as:6070",
+      "source_text": "f += vel / 3.5;"
+    },
+    {
+      "name": "runAnimStep",
+      "value": 9,
+      "unit": "f += vel / 9",
+      "source": "frame_1/DoAction.as:6093",
+      "source_text": "f += vel / 9;"
+    },
+    {
+      "name": "spawnFlickerAlphaStep",
+      "value": 25,
+      "unit": "invulnerable alpha pulse",
+      "source": "frame_1/DoAction.as:6132",
+      "source_text": "_alpha += 25;"
+    },
+    {
+      "name": "userIDLength",
+      "value": 3,
+      "unit": "IDLEN",
+      "source": "frame_1/DoAction.as:8384",
+      "source_text": "var IDLEN = 3;"
+    },
+    {
+      "name": "positionScale",
+      "value": 10,
+      "unit": "x/y are sent *10",
+      "source": "frame_1/DoAction.as:8961",
+      "source_text": "var _loc5_ = Math.round((gxqKQk._x - xqXvQHh._x) * 10);"
+    },
+    {
+      "name": "velocityScale",
+      "value": 1000,
+      "unit": "velocities are sent *1000",
+      "source": "frame_1/DoAction.as:8968",
+      "source_text": "var _loc7_ = Math.max(-9999,Math.round(this.yVel * 1000));"
+    },
+    {
+      "name": "remotePredictionOffsetFrames",
+      "value": 3,
+      "unit": "approximateFrameDelay = ping/33 + 3",
+      "source": "frame_1/DoAction.as:4384",
+      "source_text": "approximateFrameDelay = Math.round(remoteAvgPing / 33 + 3);"
+    },
+    {
+      "name": "roundSummarySeconds",
+      "value": 11,
+      "unit": "sSummaryTime",
+      "source": "frame_1/DoAction.as:3402",
+      "source_text": "tqmQZc = int(this.sSummaryTime);"
+    },
+    {
+      "name": "roundAdSeconds",
+      "value": 20,
+      "unit": "sAdTime",
+      "source": "frame_1/DoAction.as:3403",
+      "source_text": "qxIYpT = int(this.sAdTime);"
+    },
+    {
+      "name": "serverRoundTimeOffset",
+      "value": 31,
+      "unit": "server sends roundTime + 31 = summary + ad",
+      "source": "ballistickemu/src/ballistickemu/Tools/StickPacketMaker.java:101",
+      "source_text": "Result.Append(Integer.toString(RoundTime + 31));"
+    },
+    {
+      "name": "scorePackingBase",
+      "value": 13,
+      "unit": "score = (lqexbO - 11) / 13",
+      "source": "frame_1/DoAction.as:9056",
+      "source_text": "return (this.lqexbO - 11) / 13;"
+    },
+    {
+      "name": "deathPackingBase",
+      "value": 11,
+      "unit": "deaths = (jhSfVJ - 13) / 11",
+      "source": "frame_1/DoAction.as:9065",
+      "source_text": "return (this.jhSfVJ - 13) / 11;"
+    }
+  ]
+}

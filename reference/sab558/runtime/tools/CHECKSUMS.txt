@@ -1,0 +1,1 @@
+a5f6df9881771226e330e08a1fa7666f4caff50ddf9f2f993cdd95293edca627  ruffle-0.7.1-windows-x86_64.zip

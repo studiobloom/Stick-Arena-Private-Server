@@ -1,0 +1,56 @@
+{
+  "scenario": "round-timer",
+  "elapsed_s": 331.8,
+  "screenshots": [
+    "shot_000s.png",
+    "shot_030s.png",
+    "shot_120s.png",
+    "shot_240s.png",
+    "shot_300s.png",
+    "shot_330s.png"
+  ],
+  "detail_requests": [
+    [
+      "00:47:28.735",
+      "002 04!70508"
+    ],
+    [
+      "00:47:44.738",
+      "002 04!70508"
+    ],
+    [
+      "00:48:00.739",
+      "002 04!70508"
+    ],
+    [
+      "00:48:16.739",
+      "002 04!70508"
+    ],
+    [
+      "00:48:32.739",
+      "002 04!70508"
+    ],
+    [
+      "00:48:48.741",
+      "002 04!70508"
+    ],
+    [
+      "00:49:04.741",
+      "002 04!70508"
+    ],
+    [
+      "00:49:20.742",
+      "002 04!70508"
+    ],
+    [
+      "00:52:33.023",
+      "003 04!94232"
+    ],
+    [
+      "00:52:49.049",
+      "003 04!94232"
+    ]
+  ],
+  "detail_request_count": 10,
+  "note": "Round clock is server-authoritative. Run 1 (constant server time) never ended; run 2 (counting server) was cut short by the client's 120 s inactivity watchdog. See docs/systems/09-runtime-evidence.md 9.5."
+}

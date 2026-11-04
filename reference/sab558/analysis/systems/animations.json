@@ -1,0 +1,351 @@
+{
+  "root_character_id": 2530,
+  "root_export_names": [],
+  "fps": 34,
+  "note": "Each label names a frame in gfoKHPq; the clip placed on that frame is the animation that plays. Duration = clip frame count / 34 fps.",
+  "clips": [
+    {
+      "label": "fistIdle",
+      "frame_in_gfoKHPq": 1,
+      "clip_character_id": 977,
+      "clip_frames": 20,
+      "clip_seconds_at_34fps": 0.588
+    },
+    {
+      "label": "fistRunIdle",
+      "frame_in_gfoKHPq": 2,
+      "clip_character_id": 1777,
+      "clip_frames": 30,
+      "clip_seconds_at_34fps": 0.882
+    },
+    {
+      "label": "fistAttack1",
+      "frame_in_gfoKHPq": 3,
+      "clip_character_id": 1783,
+      "clip_frames": 13,
+      "clip_seconds_at_34fps": 0.382
+    },
+    {
+      "label": "fistAttack2",
+      "frame_in_gfoKHPq": 4,
+      "clip_character_id": 1787,
+      "clip_frames": 12,
+      "clip_seconds_at_34fps": 0.353
+    },
+    {
+      "label": "fistAttack3",
+      "frame_in_gfoKHPq": 5,
+      "clip_character_id": 1798,
+      "clip_frames": 14,
+      "clip_seconds_at_34fps": 0.412
+    },
+    {
+      "label": "batIdle",
+      "frame_in_gfoKHPq": 6,
+      "clip_character_id": 1809,
+      "clip_frames": 25,
+      "clip_seconds_at_34fps": 0.735
+    },
+    {
+      "label": "batRunIdle",
+      "frame_in_gfoKHPq": 7,
+      "clip_character_id": 1816,
+      "clip_frames": 18,
+      "clip_seconds_at_34fps": 0.529
+    },
+    {
+      "label": "batAttack1",
+      "frame_in_gfoKHPq": 8,
+      "clip_character_id": 1844,
+      "clip_frames": 26,
+      "clip_seconds_at_34fps": 0.765
+    },
+    {
+      "label": "knifeAttack1",
+      "frame_in_gfoKHPq": 9,
+      "clip_character_id": 1844,
+      "clip_frames": 26,
+      "clip_seconds_at_34fps": 0.765
+    },
+    {
+      "label": "swordRunIdle",
+      "frame_in_gfoKHPq": 10,
+      "clip_character_id": 1855,
+      "clip_frames": 60,
+      "clip_seconds_at_34fps": 1.765
+    },
+    {
+      "label": "swordAttack1",
+      "frame_in_gfoKHPq": 11,
+      "clip_character_id": 1893,
+      "clip_frames": 48,
+      "clip_seconds_at_34fps": 1.412
+    },
+    {
+      "label": "swordAttack2",
+      "frame_in_gfoKHPq": 12,
+      "clip_character_id": 1922,
+      "clip_frames": 36,
+      "clip_seconds_at_34fps": 1.059
+    },
+    {
+      "label": "swordAttack3",
+      "frame_in_gfoKHPq": 13,
+      "clip_character_id": 1943,
+      "clip_frames": 36,
+      "clip_seconds_at_34fps": 1.059
+    },
+    {
+      "label": "glockIdle",
+      "frame_in_gfoKHPq": 14,
+      "clip_character_id": 1190,
+      "clip_frames": 40,
+      "clip_seconds_at_34fps": 1.176
+    },
+    {
+      "label": "glockRunIdle",
+      "frame_in_gfoKHPq": 15,
+      "clip_character_id": 1182,
+      "clip_frames": 18,
+      "clip_seconds_at_34fps": 0.529
+    },
+    {
+      "label": "glockAttack1",
+      "frame_in_gfoKHPq": 16,
+      "clip_character_id": 1947,
+      "clip_frames": 20,
+      "clip_seconds_at_34fps": 0.588
+    },
+    {
+      "label": "ak47Idle",
+      "frame_in_gfoKHPq": 17,
+      "clip_character_id": 1956,
+      "clip_frames": 40,
+      "clip_seconds_at_34fps": 1.176
+    },
+    {
+      "label": "ak47RunIdle",
+      "frame_in_gfoKHPq": 18,
+      "clip_character_id": 1962,
+      "clip_frames": 18,
+      "clip_seconds_at_34fps": 0.529
+    },
+    {
+      "label": "ak47Attack1",
+      "frame_in_gfoKHPq": 19,
+      "clip_character_id": 1968,
+      "clip_frames": 24,
+      "clip_seconds_at_34fps": 0.706
+    },
+    {
+      "label": "ak47Attack2",
+      "frame_in_gfoKHPq": 20,
+      "clip_character_id": 1968,
+      "clip_frames": 24,
+      "clip_seconds_at_34fps": 0.706
+    },
+    {
+      "label": "ak47Attack3",
+      "frame_in_gfoKHPq": 21,
+      "clip_character_id": 1968,
+      "clip_frames": 24,
+      "clip_seconds_at_34fps": 0.706
+    },
+    {
+      "label": "shotgunIdle",
+      "frame_in_gfoKHPq": 22,
+      "clip_character_id": 1043,
+      "clip_frames": 40,
+      "clip_seconds_at_34fps": 1.176
+    },
+    {
+      "label": "shotgunRunIdle",
+      "frame_in_gfoKHPq": 23,
+      "clip_character_id": 1979,
+      "clip_frames": 18,
+      "clip_seconds_at_34fps": 0.529
+    },
+    {
+      "label": "shotgunAttack1",
+      "frame_in_gfoKHPq": 24,
+      "clip_character_id": 1984,
+      "clip_frames": 29,
+      "clip_seconds_at_34fps": 0.853
+    },
+    {
+      "label": "sledgeIdle",
+      "frame_in_gfoKHPq": 25,
+      "clip_character_id": 1997,
+      "clip_frames": 82,
+      "clip_seconds_at_34fps": 2.412
+    },
+    {
+      "label": "sledgeRunIdle",
+      "frame_in_gfoKHPq": 26,
+      "clip_character_id": 2003,
+      "clip_frames": 28,
+      "clip_seconds_at_34fps": 0.824
+    },
+    {
+      "label": "sledgeAttack1",
+      "frame_in_gfoKHPq": 27,
+      "clip_character_id": 2073,
+      "clip_frames": 75,
+      "clip_seconds_at_34fps": 2.206
+    },
+    {
+      "label": "flamethrowerIdle",
+      "frame_in_gfoKHPq": 28,
+      "clip_character_id": 2096,
+      "clip_frames": 64,
+      "clip_seconds_at_34fps": 1.882
+    },
+    {
+      "label": "flamethrowerRunIdle",
+      "frame_in_gfoKHPq": 29,
+      "clip_character_id": 2096,
+      "clip_frames": 64,
+      "clip_seconds_at_34fps": 1.882
+    },
+    {
+      "label": "flamethrowerAttack1",
+      "frame_in_gfoKHPq": 30,
+      "clip_character_id": 2150,
+      "clip_frames": 75,
+      "clip_seconds_at_34fps": 2.206
+    },
+    {
+      "label": "chaingunIdle",
+      "frame_in_gfoKHPq": 31,
+      "clip_character_id": 2181,
+      "clip_frames": 166,
+      "clip_seconds_at_34fps": 4.882
+    },
+    {
+      "label": "chaingunRunIdle",
+      "frame_in_gfoKHPq": 32,
+      "clip_character_id": 2187,
+      "clip_frames": 28,
+      "clip_seconds_at_34fps": 0.824
+    },
+    {
+      "label": "chaingunAttack1",
+      "frame_in_gfoKHPq": 33,
+      "clip_character_id": 2229,
+      "clip_frames": 45,
+      "clip_seconds_at_34fps": 1.324
+    },
+    {
+      "label": "chainSawIdle",
+      "frame_in_gfoKHPq": 34,
+      "clip_character_id": 2245,
+      "clip_frames": 40,
+      "clip_seconds_at_34fps": 1.176
+    },
+    {
+      "label": "chainsawRunIdle",
+      "frame_in_gfoKHPq": 35,
+      "clip_character_id": 2251,
+      "clip_frames": 18,
+      "clip_seconds_at_34fps": 0.529
+    },
+    {
+      "label": "chainsawAttack1",
+      "frame_in_gfoKHPq": 36,
+      "clip_character_id": 2268,
+      "clip_frames": 38,
+      "clip_seconds_at_34fps": 1.118
+    },
+    {
+      "label": "chainsawAttack2",
+      "frame_in_gfoKHPq": 37,
+      "clip_character_id": 2268,
+      "clip_frames": 38,
+      "clip_seconds_at_34fps": 1.118
+    },
+    {
+      "label": "chainsawAttack3",
+      "frame_in_gfoKHPq": 38,
+      "clip_character_id": 2268,
+      "clip_frames": 38,
+      "clip_seconds_at_34fps": 1.118
+    },
+    {
+      "label": "laserswordIdle",
+      "frame_in_gfoKHPq": 39,
+      "clip_character_id": 2286,
+      "clip_frames": 43,
+      "clip_seconds_at_34fps": 1.265
+    },
+    {
+      "label": "laserswordRunIdle",
+      "frame_in_gfoKHPq": 40,
+      "clip_character_id": 2299,
+      "clip_frames": 30,
+      "clip_seconds_at_34fps": 0.882
+    },
+    {
+      "label": "laserswordAttack1",
+      "frame_in_gfoKHPq": 41,
+      "clip_character_id": 2335,
+      "clip_frames": 24,
+      "clip_seconds_at_34fps": 0.706
+    },
+    {
+      "label": "laserswordAttack2",
+      "frame_in_gfoKHPq": 42,
+      "clip_character_id": 2359,
+      "clip_frames": 32,
+      "clip_seconds_at_34fps": 0.941
+    },
+    {
+      "label": "laserswordAttack3",
+      "frame_in_gfoKHPq": 43,
+      "clip_character_id": 2405,
+      "clip_frames": 30,
+      "clip_seconds_at_34fps": 0.882
+    },
+    {
+      "label": "helmetIdle",
+      "frame_in_gfoKHPq": 44,
+      "clip_character_id": 2430,
+      "clip_frames": 55,
+      "clip_seconds_at_34fps": 1.618
+    },
+    {
+      "label": "helmetRunIdle",
+      "frame_in_gfoKHPq": 45,
+      "clip_character_id": 2456,
+      "clip_frames": 30,
+      "clip_seconds_at_34fps": 0.882
+    },
+    {
+      "label": "helmetAttack1",
+      "frame_in_gfoKHPq": 46,
+      "clip_character_id": 2487,
+      "clip_frames": 26,
+      "clip_seconds_at_34fps": 0.765
+    },
+    {
+      "label": "railgunIdle",
+      "frame_in_gfoKHPq": 47,
+      "clip_character_id": 2501,
+      "clip_frames": 60,
+      "clip_seconds_at_34fps": 1.765
+    },
+    {
+      "label": "railgunRunIdle",
+      "frame_in_gfoKHPq": 48,
+      "clip_character_id": 2501,
+      "clip_frames": 60,
+      "clip_seconds_at_34fps": 1.765
+    },
+    {
+      "label": "railgunAttack1",
+      "frame_in_gfoKHPq": 49,
+      "clip_character_id": 2529,
+      "clip_frames": 68,
+      "clip_seconds_at_34fps": 2.0
+    }
+  ]
+}

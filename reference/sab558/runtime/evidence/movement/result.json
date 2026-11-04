@@ -1,0 +1,19 @@
+{
+  "scenario": "movement",
+  "uid": "002",
+  "position_packets": 621,
+  "moving_samples": 343,
+  "run": {
+    "samples": 172,
+    "max_px_per_frame": 4.968,
+    "p95_px_per_frame": 4.943,
+    "max_px_per_s": 168.9
+  },
+  "walk": {
+    "samples": 171,
+    "max_px_per_frame": 3.495,
+    "p95_px_per_frame": 2.239,
+    "max_px_per_s": 118.8
+  },
+  "note": "speed = |(xVel,yVel)| in px per client frame; px/s = x34 fps"
+}

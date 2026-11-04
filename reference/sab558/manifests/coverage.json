@@ -1,0 +1,2988 @@
+{
+  "note": "expected_* counts come from the SWF tag tree; extracted_* counts come from files actually on disk. A mismatch means the decompiler did not emit that resource and it is listed under unresolved.",
+  "extracted_counts": {
+    "button": 100,
+    "font": 18,
+    "image": 970,
+    "main_frame": 1,
+    "morphshape": 757,
+    "shape": 3376,
+    "sound": 80,
+    "sprite_frame": 1897,
+    "text": 665,
+    "xfl": 2042
+  },
+  "expected_counts": {
+    "button": 100,
+    "edittext": 470,
+    "font": 20,
+    "image": 970,
+    "morphshape": 757,
+    "shape": 3376,
+    "sound": 80,
+    "sprite": 1945,
+    "text": 195
+  },
+  "file_counts_by_kind": {
+    "button": 400,
+    "font": 36,
+    "image": 970,
+    "main_frame": 22,
+    "morphshape": 757,
+    "script": 2546,
+    "shape": 3376,
+    "sound": 81,
+    "sprite_frame": 23998,
+    "swf_xml": 1,
+    "symbolclass": 1,
+    "text": 665,
+    "xfl": 2541
+  },
+  "unresolved": [],
+  "empty_definitions": [
+    {
+      "character_id": 142,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 143,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 144,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 145,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 179,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 180,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 181,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 182,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 183,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 184,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 185,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 186,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 187,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 188,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 189,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 190,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 191,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 192,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 193,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 194,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 195,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 196,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 197,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 198,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 199,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 200,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 201,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 202,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 203,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 204,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 205,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 206,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 207,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 208,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 209,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 210,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 218,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 219,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 220,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 221,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 222,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 228,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 229,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 230,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 232,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 432,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 5152,
+      "kinds": [
+        "font"
+      ],
+      "tag": "DefineFont3",
+      "tag_length": 25,
+      "reason": "definition carries no payload"
+    },
+    {
+      "character_id": 7912,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    },
+    {
+      "character_id": 7913,
+      "kinds": [
+        "sprite"
+      ],
+      "tag": "DefineSprite",
+      "tag_length": 6,
+      "reason": "zero-frame sprite (class / linkage stub)"
+    }
+  ],
+  "empty_definition_count": 49,
+  "files_without_character_id": [
+    {
+      "path": "scripts/as/Border.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/BtnDownArrow.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/BtnUpArrow.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/Button.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/ButtonSkin.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/CheckBox.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/CheckBoxAssets.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/ComboAssets.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/ComboBase.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/ComboBox.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/ComboDownArrowDisabled.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/CustomBorder.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DataProvider.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DataSelector.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/Defaults.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1313/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1313/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1313/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1313/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1323/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1323/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1323/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1323/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1343/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1343/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1343/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1343/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1389/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1389/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1389/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1389/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1390/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1402/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1402/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1402/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1402/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1406/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1406/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1406/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1406/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1413/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1413/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1413/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1413/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1418/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1418/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1418/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1418/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1426/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1426/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1426/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1426/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1526/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1526/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1526/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1526/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1566/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1566/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1566/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1566/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1594/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1594/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1594/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1594/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1633/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1633/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1633/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1633/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_164/BUTTONCONDACTION on(keyPress Tab).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1733/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1733/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1733/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1733/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1747/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1747/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1747/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_1747/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2534/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2534/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2534/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2534/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2538/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2538/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2538/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2538/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2569/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2569/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2569/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2569/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2575/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2575/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2575/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2575/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2621/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2621/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2621/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2621/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2623/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2623/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2623/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2623/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2634/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2634/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2634/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2634/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2638/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2638/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2638/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2638/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2640/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2640/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2640/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2640/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2650/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2650/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2650/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2650/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2655/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2655/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2655/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2655/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2671/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2671/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2671/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2671/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2677/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2677/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2677/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2677/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2683/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2683/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2683/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2683/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2689/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2689/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2689/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2689/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2696/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2696/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2696/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2696/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2701/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2701/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2701/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2701/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2707/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2707/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2707/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2707/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2713/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2713/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2713/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2713/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2721/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2721/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2721/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2721/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2728/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2728/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2728/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2728/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2734/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2734/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2734/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2734/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2739/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2739/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2739/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2739/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2742/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2742/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2742/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2742/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2745/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2745/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2745/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2745/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2751/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2751/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2751/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2751/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2757/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2757/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2757/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2757/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2763/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2763/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2763/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2763/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2769/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2769/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2769/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2769/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2772/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2772/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2772/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2772/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2786/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2786/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2786/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2786/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2789/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2789/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2789/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2789/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2795/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2795/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2795/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2795/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2801/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2801/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2801/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2801/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2806/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2806/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2806/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_2806/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_32/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_32/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_32/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_32/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3270/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3270/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3270/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3270/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3274/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3274/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3274/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3274/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3334/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3334/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3334/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3334/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3341/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3341/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3341/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3341/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3343/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3343/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3343/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3343/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3353/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3353/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3353/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3353/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3357/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3357/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3357/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3357/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3371/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3371/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3371/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3371/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3378/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3378/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3378/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_3439/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_398/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_398/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_398/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_398/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_40/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_40/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_40/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_40/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_407/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_407/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_407/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_407/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_416/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_416/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_416/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_416/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_430/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_430/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_430/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_430/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_436/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_436/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_436/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_436/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5094/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5094/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5094/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5094/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5099/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5099/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5099/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5099/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5151/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5159/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5203/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5203/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5203/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5203/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5227/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5227/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5227/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5227/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5238/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5238/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5238/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5238/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5661/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5661/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5661/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5661/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5665/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5665/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5665/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5665/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5667/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5667/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5667/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5667/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5688/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5688/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5688/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5688/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5692/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5692/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5692/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_5692/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6237/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6237/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6237/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6237/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6239/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6239/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6239/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6239/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6346/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6346/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6346/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6346/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6354/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6354/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6354/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6354/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6396/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6396/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6396/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6396/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6657/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6657/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6657/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6657/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6662/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6662/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6662/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6662/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6777/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6777/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6777/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6777/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6784/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6784/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6784/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_6784/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7691/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7691/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7691/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7691/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7693/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7693/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7693/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7693/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7695/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7695/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7695/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7695/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7697/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7697/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7697/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7697/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7701/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7701/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7701/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7701/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7708/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7708/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7708/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7708/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7715/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7715/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7715/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7715/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7731/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7774/BUTTONCONDACTION on(press).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7774/BUTTONCONDACTION on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7774/BUTTONCONDACTION on(releaseOutside, rollOut).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineButton2_7774/BUTTONCONDACTION on(rollOver).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_10_blur1FX/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_10_blur1FX/frame_2/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_10_blur1FX/frame_3/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_10_blur1FX/frame_4/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_10_blur1FX/frame_5/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1190/frame_40/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_11_shakeBlur1FX/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_11_shakeBlur1FX/frame_2/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_11_shakeBlur1FX/frame_3/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_11_shakeBlur1FX/frame_4/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_11_shakeBlur1FX/frame_5/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1275/frame_12/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_12_damageHpFX/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_12_damageHpFX/frame_2/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_12_damageHpFX/frame_3/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_227_ComboBox_21/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_227_ComboBox_21/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_227_ComboBox_21/CLIPACTIONRECORD onClipEvent(load)_2.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_227_ComboBox_21/CLIPACTIONRECORD onClipEvent(load)_3.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_227_ComboBox_21/CLIPACTIONRECORD onClipEvent(load)_4.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_227_ComboBox_21/CLIPACTIONRECORD onClipEvent(load)_5.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_14/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_14/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_14/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_15/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_15/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_15/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_16/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_16/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_17/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_17/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_18/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_231_RadioButton_18/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_41/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_41/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_41/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_42/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_42/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_42/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_43/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_43/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_43/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_44/CLIPACTIONRECORD on(construct).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_44/CLIPACTIONRECORD on(release).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_3988/PlaceObject2_433_CheckBox_44/CLIPACTIONRECORD onClipEvent(load).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_4849/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_4859/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1364/frame_55/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1391/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1410/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1415/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1455/frame_100/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1455/frame_120/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1455/frame_156/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1455/frame_254/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1472/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_149_BrdrShdw/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_14_CheckThemeColor1/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_151_BrdrFace/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1529/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_154_BrdrBlk/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1569/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_156_BrdrHilght/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1575/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1597/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_161_UIObject/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1636/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1640/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1647/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_165/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_167_FocusManager/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_169_UIComponent/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_170_SimpleButton/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_171_Border/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1726/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1726/frame_77/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_172_RectBorder/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1740/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_174_Button/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_174_Button/frame_2/PlaceObject2_170_SimpleButton_1/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1754/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_175_CustomBorder/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1767/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_176_VScrollBar/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_176_VScrollBar/frame_2/PlaceObject2_170_SimpleButton_31/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_176_VScrollBar/frame_2/PlaceObject2_174_Button_1/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_177_HScrollBar/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_177_HScrollBar/frame_2/PlaceObject2_170_SimpleButton_31/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_177_HScrollBar/frame_2/PlaceObject2_174_Button_1/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1783/frame_13/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1787/frame_12/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_178_UIScrollBar/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_178_UIScrollBar/frame_2/PlaceObject2_176_VScrollBar_1/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_178_UIScrollBar/frame_2/PlaceObject2_177_HScrollBar_59/CLIPACTIONRECORD on(initialize).as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1798/frame_14/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1844/frame_26/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1893/frame_48/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1922/frame_36/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1943/frame_36/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1947/frame_20/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1968/frame_24/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_1984/frame_29/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_2073/frame_75/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_211_DataProvider/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_2125/frame_21/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_212_DataSelector/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    },
+    {
+      "path": "scripts/as/DefineSprite_213_SelectableRow/frame_1/DoAction.as",
+      "kind": "script",
+      "parse_note": "script scope not recognised"
+    }
+  ]
+}

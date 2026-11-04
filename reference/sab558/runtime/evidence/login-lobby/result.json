@@ -1,0 +1,21 @@
+{
+  "scenario": "login-lobby",
+  "packets": [
+    "002 08Hx09TdCC62Nwln1P",
+    "002 091234;1234",
+    "002 0c",
+    "002 01",
+    "002 03_",
+    "002 0"
+  ],
+  "login_sent": true,
+  "auth_reply": [
+    "002 A002################12342552552552552552550;0;0;0;0;0;0;0;100000;0"
+  ],
+  "screenshots": [
+    "shot_title.png",
+    "shot_after_click.png",
+    "shot_filled.png",
+    "shot_lobby.png"
+  ]
+}

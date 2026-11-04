@@ -1,0 +1,39 @@
+{
+  "scenario": "combat",
+  "uid_a": "002",
+  "uid_b": "003",
+  "spawn_packets": {
+    "A": [
+      "002 801500200"
+    ],
+    "B": [
+      "003 801500200"
+    ]
+  },
+  "attacks_sent": 15,
+  "attack_packets_4": 16,
+  "damage_packets_6": 12,
+  "damage_values": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "total_damage": 60,
+  "damage_sender": [
+    "003"
+  ],
+  "death_packets_7": 1,
+  "death_packet": "003 70020359",
+  "respawn_after_death_s": 4.38,
+  "victim_hp_after": 0,
+  "note": "damage packet layout: '6'+damage(2)+weapon(1)+angle(3); fist damage 5"
+}
